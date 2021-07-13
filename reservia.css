@@ -1,6 +1,7 @@
 body{
-	font-family: 'Raleway', sans-serif; /* la police utilisée */
-	font-size: 14px; /* la taille de la police */
+font-family: 'Raleway', sans-serif; /* la police utilisée */
+font-size: 14px; /* la taille de la police */
+
 }
 
 
@@ -43,7 +44,7 @@ body{
 
 	/* S'INSCRIRE */
 
-.inscrire {
+#inscrire {
 	font-weight: bold; /* gras */
 	color: #0065FC;
 	padding: 10px; /* marge interieur */ 
@@ -118,6 +119,7 @@ h1 {
 	border : 0.15rem solid #F2F2F2;
 	border-radius : #F2F2F2 ;
 	margin : -0.25rem ;
+	font-weight: bold;
 
 }
 
@@ -126,8 +128,15 @@ h1 {
 	display: flex;
 	margin-right: 1rem;
 	align-items: center;
+
 }
 
+
+/* couleur de fonnd des filtres en bleu ciel */
+#filtres :hover{ 
+	background-color: #DEEBFF;
+
+}
 
 /* Marge exterieur du Titre et Filtres */
 #filtres h3 , p{
@@ -161,58 +170,92 @@ h1 {
 
 
 
+
 .fas{ /* les logos en bleu */
 	color :#0065fc;
 
 }
 
+.fa-child{
 
+padding: 2rem 1rem;
+
+}
+
+/* le i dans ka bordure */
 #logements i{
 	border: 0.15rem solid #F2F2F2; /* contour du i */
-	border-radius: 1rem ; /* contour rond */
-	width: 1.3rem; /* espace de droite a gauche entre le i et le contour */
-	height:1.3rem; /* espace de haut en bas entre le i et le contour */
-	justify-content: center; /* placement du i de droite a gauche*/
-	align-items: center;  /* placement du i de haut en bas */
-	margin-right: 1rem;
+	border-radius: 2rem ; /* contour rond */
+	margin-right: 0.5rem ;
+	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+	align-items: center;
 
 }
 
-
+/* plus de 500 log .. */
 #logement p{
+	display: flex;
 
 }
+
+
+
 
 /* Section HEBERGEMENT a MARSEILLE 1 */
 
 #Hebergements a{ /* pas de soulignement */
 	text-decoration: none;
+
+}
+
+
+
+/* toutes les images */
+#Hebergements div {
+	display: flex;
+}
+
+
+
+/* images */
+#Hebergements img{ 
+	width: 14rem ; 
+	border-radius: 1rem;
+	background-color: white;
+	border: 10px white solid;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 8rem 0rem;
+
+}
+
+/* l'image et sa description */
+.notes-img{
+  	margin: 0.2rem 0.2rem 0.8rem 0.3rem;
 }
 
 
 
 /* Toute la section */
 #Hebergements{
-	background-color: #F2F2F2;
+
 	width: 60%;
+	height: 30rem;
 	margin-right: 2rem;
-	padding: 1.8rem ;
-	border-radius: 1.5rem;
-}
-
-/* toutes les images */
-#Hebergements div {
-	display: flex;
-	align-content: flex-start;
-	flex-wrap: wrap;
-	width: 60%;
 }
 
 
 
-#Hebergements img{ /* l'espace entre ID et IMG indique que SEULEMENT les images de cette DIV la seront modifier*/
-	width: 100px ; 
+#Hebergements p{
+	
+	background-color: white;
+	padding: 0.5rem;
+	padding-bottom: -20rem;
+	border-radius: 1rem;
+}
 
+
+#Hebergements h3{
+	text-align: left ;
 }
 
 
@@ -222,27 +265,64 @@ h1 {
 
 
 
+/* Aside 2 LES plus POPULAIRES */
 
-
-
-
-
-
-/* Section 2 LES plus POPULAIRES */
 
 #populaires img{
-	width : 100px ;
+
+width : 14rem ;
+border-radius: 1rem;
 }
+
+
+
+
+#populaires{
+	
+}
+
+
+
+
+
+
+
 
 
 
 /* Section ACTIVITES a MARSEILLE */
 
+/* pas de soulignements */
+#Activites a{
+	text-decoration: none;
+}
+
+
+
 #Activites img{
-	width : 100px;
+	width: 15rem ; 
+	border-radius: 1rem ;
+	background-color: white;
+	border: 0.25rem white solid;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 5rem 0rem;
+
 	
 }
 
+#Activites h2{
+	margin-top: 3rem;
+}
+
+
+
+#Activites h3{
+
+	margin-top: -5rem;
+	margin-bottom: 5rem;
+	margin-left: 0.5rem;
+
+}
 
 
 
@@ -261,21 +341,48 @@ h1 {
 
 /* FOOTER */
 
+footer{
+	background-color: #F2F2F2;
+
+}
+
+
+/* div pour les 3 categories */
+#foot{
+
+	display: flex;
+	align-items: ; /* aligne les 3 categories au milieu */
+
+}
+
+#foot a{ /* pas de soulignement */
+	text-decoration: none;
+}
+
+
+
+#foot a:hover{ /* sur les liens la couleur devient bleu */
+	color:#0065FC;
+}
+
+
+
 #propos{
 	
-
+	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
 }
 
 
 
 #charte{
-	 
+	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+
 }
 
 
 
 #Assistance{
-	
+	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
 }
 
 
@@ -285,10 +392,6 @@ h1 {
 .etoile-grise{
 	color: #F2F2F2;
 }
-
-
-
-
 
 
 
