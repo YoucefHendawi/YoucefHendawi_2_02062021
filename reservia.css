@@ -245,23 +245,22 @@ h1 {
 
 
 
-#Hebergements p{
-
-	background-color: white;
-	padding: 0.5rem;
-	padding-bottom: -20rem;
-	border-radius: 1rem;
-}
-
-
 #Hebergements h3{
+
 	text-align: left ;
+	margin-bottom: -0.8rem;
 }
 
 
+#img-heber{
+	display: grid;
+	grid-template-columns: 5fr 5fr 5fr colonne-une;
+	grid-template-rows: 5rem ;
+}
 
-
-
+colonne-une{
+	grid-area: colonne-une;
+}
 
 
 
