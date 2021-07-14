@@ -1,12 +1,12 @@
 body{
-font-family: 'Raleway', sans-serif; /* la police utilisée */
-font-size: 14px; /* la taille de la police */
+	font-family: 'Raleway', sans-serif; /* la police utilisée */
+	font-size: 14px; /* la taille de la police */
 
 }
 
 
 /* < DEBUT DE LA TETE Inscription > */
-	/* DIV entiere */
+/* DIV entiere */
 
 #inscription { /* les 3 liens ensemble */ 
 	text-align: right ;
@@ -19,7 +19,7 @@ font-size: 14px; /* la taille de la police */
 #inscription a{ /* ce qu'on voit sur les 3 liens la couleur d'ecriture, pas soulignée etc.. */
 	color: black;
 	text-decoration: none; /* pas de soulignement */ 
-	
+
 }
 
 
@@ -36,13 +36,13 @@ font-size: 14px; /* la taille de la police */
 
 
 #act{
-	 /* la marge INTERIEUR sur les cotés de la categorie Activités */
+	/* la marge INTERIEUR sur les cotés de la categorie Activités */
 	padding: 1.5rem;
 }
 
 
 
-	/* S'INSCRIRE */
+/* S'INSCRIRE */
 
 #inscrire {
 	font-weight: bold; /* gras */
@@ -65,7 +65,7 @@ header p{
 
 /* le logo reservia */
 #reservia{
-	
+
 	width: 100px;
 	margin-top: -30px;
 
@@ -86,7 +86,7 @@ h1 {
 #info{
 	font-size : 0.9rem; /* la taille de l'ecriture */
 	margin : 0.5rem 0rem 0.5rem 0rem; /* la marge exterieur entre le H1 et la recherche et de 0.5 en haut et en bas */ 
-	
+
 }
 
 
@@ -178,7 +178,7 @@ h1 {
 
 .fa-child{
 
-padding: 2rem 1rem;
+	padding: 2rem 1rem;
 
 }
 
@@ -230,7 +230,7 @@ padding: 2rem 1rem;
 
 /* l'image et sa description */
 .notes-img{
-  	margin: 0.2rem 0.2rem 0.8rem 0.3rem;
+	margin: 0.2rem 0.2rem 0.8rem 0.3rem;
 }
 
 
@@ -246,7 +246,7 @@ padding: 2rem 1rem;
 
 
 #Hebergements p{
-	
+
 	background-color: white;
 	padding: 0.5rem;
 	padding-bottom: -20rem;
@@ -270,15 +270,15 @@ padding: 2rem 1rem;
 
 #populaires img{
 
-width : 14rem ;
-border-radius: 1rem;
+	width : 14rem ;
+	border-radius: 1rem;
 }
 
 
 
 
 #populaires{
-	
+
 }
 
 
@@ -307,7 +307,7 @@ border-radius: 1rem;
 	box-shadow: 1rem 1rem 1rem #F2F2F2;
 	padding: 0rem 0rem 5rem 0rem;
 
-	
+
 }
 
 #Activites h2{
@@ -368,7 +368,7 @@ footer{
 
 
 #propos{
-	
+
 	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
 }
 
