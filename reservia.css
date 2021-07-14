@@ -209,24 +209,12 @@ h1 {
 }
 
 
+#Hebergements h3{
 
-/* toutes les images */
-#Hebergements div {
-	display: flex;
+	text-align: left ;
+	margin-bottom: -0.8rem;
 }
 
-
-
-/* images */
-#Hebergements img{ 
-	width: 14rem ; 
-	border-radius: 1rem;
-	background-color: white;
-	border: 10px white solid;
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 0rem 8rem 0rem;
-
-}
 
 /* l'image et sa description */
 .notes-img{
@@ -235,9 +223,34 @@ h1 {
 
 
 
+/* toutes les images */
+#Hebergements div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 12rem ;
+}
+
+
+
+
+/* images */
+#Hebergements img{ 
+	width: 10rem ; 
+	border-radius: 1rem;
+	background-color: white;
+	border: 0.3rem white solid;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 4rem 0rem;
+
+}
+
+
+
+
 /* Toute la section */
 #Hebergements{
-
+	background-color: #F2F2F2;
+	border-radius: 1rem;
 	width: 60%;
 	height: 30rem;
 	margin-right: 2rem;
@@ -245,22 +258,7 @@ h1 {
 
 
 
-#Hebergements h3{
 
-	text-align: left ;
-	margin-bottom: -0.8rem;
-}
-
-
-#img-heber{
-	display: grid;
-	grid-template-columns: 5fr 5fr 5fr colonne-une;
-	grid-template-rows: 5rem ;
-}
-
-colonne-une{
-	grid-area: colonne-une;
-}
 
 
 
