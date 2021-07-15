@@ -209,6 +209,11 @@ h1 {
 }
 
 
+
+#Hebergements h2{
+	padding: 2rem 0rem 0.5rem 2rem;
+}
+
 #Hebergements h3{
 
 	text-align: left ;
@@ -223,16 +228,6 @@ h1 {
 
 
 
-/* toutes les images */
-#Hebergements div {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 12rem ;
-}
-
-
-
-
 /* images */
 #Hebergements img{ 
 	width: 10rem ; 
@@ -241,7 +236,9 @@ h1 {
 	border: 0.3rem white solid;
 	box-shadow: 1rem 1rem 1rem #F2F2F2;
 	padding: 0rem 0rem 4rem 0rem;
-
+	
+	
+	
 }
 
 
@@ -251,9 +248,11 @@ h1 {
 #Hebergements{
 	background-color: #F2F2F2;
 	border-radius: 1rem;
-	width: 60%;
+	width: 55%;
 	height: 30rem;
 	margin-right: 2rem;
+	display: flex;
+	flex-direction: row;
 }
 
 
