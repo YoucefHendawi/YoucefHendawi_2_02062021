@@ -214,35 +214,35 @@ h1 {
 	padding: 2rem 0rem 0.5rem 2rem;
 }
 
-#Hebergements h3{
+#Hebergements h3, p{
 
 	text-align: left ;
 	margin-bottom: -0.8rem;
+	margin-top: -4rem;
+	padding-left: 0.5rem;
 }
 
 
-/* l'image et sa description */
-.notes-img{
-	margin: 0.2rem 0.2rem 0.8rem 0.3rem;
-}
+
 
 
 
 /* images */
 #Hebergements img{ 
-	width: 10rem ; 
+
+	width: 12rem ; 
 	border-radius: 1rem;
 	background-color: white;
 	border: 0.3rem white solid;
 	box-shadow: 1rem 1rem 1rem #F2F2F2;
 	padding: 0rem 0rem 4rem 0rem;
 	
-	
-	
 }
 
 
+#Hebergements figcaption{
 
+}
 
 /* Toute la section */
 #Hebergements{
@@ -251,8 +251,7 @@ h1 {
 	width: 55%;
 	height: 30rem;
 	margin-right: 2rem;
-	display: flex;
-	flex-direction: row;
+
 }
 
 
@@ -265,7 +264,7 @@ h1 {
 
 
 #populaires img{
-
+	
 	width : 14rem ;
 	border-radius: 1rem;
 }
@@ -274,6 +273,7 @@ h1 {
 
 
 #populaires{
+
 
 }
 
