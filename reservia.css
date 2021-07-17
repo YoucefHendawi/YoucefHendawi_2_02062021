@@ -208,21 +208,26 @@ h1 {
 
 }
 
-
-
+/* titre Hebergement a Marseille */
 #Hebergements h2{
+
 	padding: 2rem 0rem 0.5rem 2rem;
+	margin-bottom: 90rem;
 }
 
-#Hebergements h3, p{
+/* titre des Images */ 
+#Hebergements h3{
 
+	font-size: 14px;
 	text-align: left ;
 	margin-bottom: -0.8rem;
 	margin-top: -4rem;
 	padding-left: 0.5rem;
 }
 
-
+#Hebergements p{
+	padding-left: 0.5rem;
+}
 
 
 
@@ -230,7 +235,7 @@ h1 {
 /* images */
 #Hebergements img{ 
 
-	width: 12rem ; 
+	width: 13rem ; 
 	border-radius: 1rem;
 	background-color: white;
 	border: 0.3rem white solid;
@@ -240,17 +245,17 @@ h1 {
 }
 
 
-#Hebergements figcaption{
+#Hebergements figure{
+	margin: 1rem 25rem 1.5rem 2rem;
 
 }
 
+
+
 /* Toute la section */
 #Hebergements{
-	background-color: #F2F2F2;
-	border-radius: 1rem;
-	width: 55%;
-	height: 30rem;
-	margin-right: 2rem;
+	display: flex;
+	flex-wrap: wrap;
 
 }
 
