@@ -209,13 +209,16 @@ h1 {
 
 }
 
+
+
 /* titre Hebergement a Marseille */
 #Hebergements h2{
 
-	padding: 2rem 0rem 0.5rem 2rem;
+	padding: 2rem 0rem 0rem 2rem;
 
-	
 }
+
+
 
 /* titre des Images */ 
 #Hebergements h3{
@@ -224,60 +227,69 @@ h1 {
 	text-align: left ;
 	margin-bottom: -0.8rem;
 	margin-top: -4rem;
-	padding-left: 0.5rem;
+	
+	color: black;
 }
+
+
 
 /* prix et note de la description */
 #Hebergements p{
 
-	padding-left: 0.5rem;
+	color: black;
+	font-size: 0.8rem;
 }
 
 
 
+#Hebergements figcaption{
+	margin-left: -0.5rem;
+	}
 
-/* images */
+/* images details ( taille bordure etc*/
 #Hebergements img{ 
 	
-	width: 13rem ; 
+	width: 12rem ; 
+	height: 6rem;
 	border-radius: 1rem;
 	background-color: white;
 	border: 0.3rem white solid;
 	box-shadow: 1rem 1rem 1rem #F2F2F2;
 	padding: 0rem 0rem 4rem 0rem;
-
+	margin: 0rem -1.5rem;
 	
 }
 
 
-
+/* le groupe d'images */
 #img-heber{
 	display: flex;
 	flex-wrap: wrap;
-	
-	
-}
-
-
-#image-hotel-amina{
+	flex-direction: row;
+	padding: 0 0 0 1rem;
 	
 }
-
-
 
 
 
 /* Toute la section */
 #Hebergements{
 
-background-color: #F2F2F2;
-	width: 65%;
+	background-color: #F2F2F2;
+	width: 60%;
+	border-radius: 1rem;
 	
-	
-	
+}
 
+
+
+
+#afficherplus{
+	padding: 1rem 0 2rem 2rem; 
 
 }
+
+
 
 
 
