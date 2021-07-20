@@ -419,7 +419,10 @@ h1 {
 #Activites img{
 	height: 8rem;
 	width: 15rem;
+
 }
+
+
 
 
 #image-vieux-port img{
@@ -495,7 +498,11 @@ footer{
 
 
 
-
+@media screen and (max-width: 920px){
+	.etoile-grise{
+		color:red;
+	}
+}
 
 
 
