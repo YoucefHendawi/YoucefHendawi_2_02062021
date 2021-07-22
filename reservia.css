@@ -416,13 +416,11 @@ h1 {
 
 
 
-
 #img-act{
 
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -2.5rem;
-	
 }
 
 
@@ -436,8 +434,9 @@ h1 {
 
 
 
-#port-pomegues{
-
+#image-fort-pomegues img{
+	height: 9rem;
+	width: 15rem;
 }
 
 
@@ -455,14 +454,14 @@ h1 {
 }
 
 
-#image-dame-garde{
-
+#image-dame-garde img{
+	height: 7rem;
 }
 
 
 
-#image-parc-longchamp{
-
+#image-parc-longchamp img{
+	height: 7.5rem;
 }
 
 
