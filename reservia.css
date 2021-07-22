@@ -304,7 +304,7 @@ h1 {
 
 
 
-/* Aside 2 LES plus POPULAIRES */
+/* section 2 LES plus POPULAIRES */
 
 
 #populaires{
@@ -349,8 +349,6 @@ h1 {
 
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: flex-start;
 	margin-left: 1.5rem;
 	
 }
@@ -384,6 +382,7 @@ h1 {
 }
 
 
+
 #Activites h2{
 	margin: 3rem 0 0 0;
 
@@ -391,69 +390,91 @@ h1 {
 
 
 
-#Activites img{
-	width: 15rem ; 
-	border-radius: 1rem ;
-	background-color: white;
-	border: 0.25rem white solid;
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 0rem 3rem 0rem;
-
-}
-
-
-
-
-
 #Activites h3{
 
-	margin-top: -3rem;
+	margin-top: -2rem;
 	margin-bottom: 1rem;
 	margin-left: 0.5rem;
-	font-size: 14px;
+	font-size: 13px;
 	color: black;
 
 }
 
 
 
+#Activites img{
+	width: 14rem ; 
+	height: 9.5rem;
+	border-radius: 1rem ;
+	background-color: white;
+	border-bottom: 0.25rem white solid;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 2rem 0rem;
+	
+	
+}
+
+
+
+
 #img-act{
 
 	display: flex;
-	
-  border-radius: 1rem;
-  flex-direction: column;
-  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  text-decoration: none;
-  color: black
+	flex-wrap: wrap;
+	margin-left: -2.5rem;
 	
 }
 
 
-#Activites img{
-	height: 10rem;
-	width: 13rem;
-
-}
 
 
 #image-vieux-port img{
-	height: 20rem;
+	height: 18.5rem;
+	width: 14rem;
 
 }
 
 
-#image-parc-calanques img{
-	height: 20rem;
-}
 
+#port-pomegues{
+
+}
 
 
 
 #image-iles-frioul img{
 	height: 6rem;
 }
+
+
+
+
+#image-parc-calanques img{
+	height: 18.5rem;
+	width: 14rem;
+}
+
+
+#image-dame-garde{
+
+}
+
+
+
+#image-parc-longchamp{
+
+}
+
+
+
+#
+
+
+
+
+
+
+
 
 
 
