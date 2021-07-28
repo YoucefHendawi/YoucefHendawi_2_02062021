@@ -246,6 +246,7 @@ h1 {
 /* titre Hebergement a Marseille */
 #Hebergements h2{
 
+	font-size: 1.2rem;
 	padding: 1.5rem 0rem 0rem 2.5rem; /* emplacement du titre dans le cadre */
 	margin-bottom: 0.5rem; /* espace entre le titre et les images */
 
@@ -258,7 +259,7 @@ h1 {
 
 	font-size: 14px; /* taille du titre sous l'image */
 	text-align: left ;
-	margin-bottom: -0.8rem;
+	margin-bottom: -0.7rem;
 	margin-top: -4rem;
 	color: black;
 }
@@ -276,19 +277,25 @@ h1 {
 
 #Hebergements figcaption{
 	margin-left: -0.5rem; /* emplacement du bloc de description des images */
+	
 	}
 
 
+/* etoiles */
+#Hebergements .fa-star {
+	font-size: 0.6rem; /* taille */
+	padding: 0.5rem 0 0 0;
+}
 
 
 
 /* le groupe d'images */
 #img-heber{
+
 	display: flex;
 	flex-wrap: wrap; /* passe a la lignes si il n'y a plus de place */
 	flex-direction: row; /* organise sur une ligne */
 	justify-content: center; /* place le bloc d'images au milieu du bloc general soit le carré gris */
-	
 	
 }
 
@@ -322,8 +329,8 @@ h1 {
 
 
 #populaires h2{
-	
-	padding: 2rem ;
+
+	padding: 1rem 0 0 2rem ;
 	font-size: 1.2rem;
 
 }
@@ -331,41 +338,65 @@ h1 {
 
 /* logo bourse */
 .fa-chart-line{
+
 	color:black;
-	padding-left: 6.5rem; /* ecart entre le titre et le logo */
+	padding: 0 3rem 0 5rem; /* ecart entre le titre et le logo a gauche, et ecart a droite entre le logo et le fond gris */
 	font-size: 1.2rem;
 }
 
 
+#populaires h3{
 
+	font-size: 14px;
+	margin-top: 0.5rem;
+}
+
+
+
+/* nuit a partir */
+#populaires p{
+
+	margin-top: -0.6rem;
+}
+
+
+
+
+/* etoiles */
+#populaires .fa-star{
+
+	font-size: 0.6rem;
+	margin-top: 1.5rem;
+}
+
+
+
+/* toutes les images */
 #populaires img{
 	
 	width : 6.5rem ;
 	height: 7rem;
 	border-radius: 1rem 0 0 1rem;
-	margin-right: 0.5rem;
-	/*background-color: white;
-	border: 0.3rem white solid;
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 13rem 0rem 0rem;*/
+	margin-right: 1rem; /* marge entre l'image et le texte */
 	
 }
 
-
+/* les 3 blocs popu sauf le fond gris */
 #img-popu{
 
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	align-content: flex-start;
-	/*margin-left: 1.5rem;*/
-	padding: 1.5rem;
-	padding-bottom: 1.5rem; /* ecart entre les images */
+	padding: 0.5rem 1rem 0 2rem; /* espace entre le bloc d'images et le fond gris */
+	padding-bottom: 1rem; /* ecart entre les images */
 	
 
 }
 
+
+
+
 #img-popu .bloc_populaire{
+
 	background-color: white;
 	border: 0.3rem white solid;
 	border-radius: 1rem;
@@ -379,12 +410,10 @@ h1 {
 
 
 #populaires figcaption{
-	font-size: 0.8rem;
-	/*position: relative;
-	bottom: 8rem;
-	left: 7.5rem;*/
-}
 
+	font-size: 0.8rem;
+	
+}
 
 
 
