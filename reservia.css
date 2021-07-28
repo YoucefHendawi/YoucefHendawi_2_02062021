@@ -199,9 +199,41 @@ h1 {
 }
 
 
+#bloc_resultats{
+	display: flex;
+}
 
 
 /* Section HEBERGEMENT a MARSEILLE 1 */
+
+
+/* Toute la section */
+#Hebergements{
+
+	background-color: #F2F2F2; /* couleur grise de l'arriere plan */
+	width: 60%; /* taille du bloc HEBERGEMENT */
+	height: 33rem;
+	border-radius: 1rem;
+	margin-right: 2.2rem; /* ecart entre le bloc heber et popu */
+	
+}
+
+
+/* images details ( taille bordure etc*/
+#Hebergements img{ 
+	
+	width: 12.5rem ; /* largeur des images */
+	height: 6rem; /* hauteur des images */
+	border-radius: 1rem; /* contour des images */
+	background-color: white; /* arriere plan des images*/
+	border: 0.3rem white solid; /* contour de l'arriere plan des images */
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
+	margin: 0rem -1.5rem; /* marge exterieure pour placer les images */
+	
+}
+
+
 
 #Hebergements a{ /* pas de soulignement */
 
@@ -214,7 +246,7 @@ h1 {
 /* titre Hebergement a Marseille */
 #Hebergements h2{
 
-	padding: 2rem 0rem 0rem 2rem; /* emplacement du titre dans le cadre */
+	padding: 1.5rem 0rem 0rem 2.5rem; /* emplacement du titre dans le cadre */
 	margin-bottom: 0.5rem; /* espace entre le titre et les images */
 
 }
@@ -246,19 +278,8 @@ h1 {
 	margin-left: -0.5rem; /* emplacement du bloc de description des images */
 	}
 
-/* images details ( taille bordure etc*/
-#Hebergements img{ 
-	
-	width: 12rem ; /* largeur des images */
-	height: 6rem; /* hauteur des images */
-	border-radius: 1rem; /* contour des images */
-	background-color: white; /* arriere plan des images*/
-	border: 0.3rem white solid; /* contour de l'arriere plan des images */
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
-	margin: 0rem -1.5rem; /* marge exterieure pour placer les images */
-	
-}
+
+
 
 
 /* le groupe d'images */
@@ -273,24 +294,10 @@ h1 {
 
 
 
-/* Toute la section */
-#Hebergements{
-
-	background-color: #F2F2F2; /* couleur grise de l'arriere plan */
-	width: 57%; /* taille de l'arriere plan */
-	border-radius: 1rem;
-	
-}
-
-
-
-
-#afficherplus a{
+#afficherplus a, #afficherplus a:visited{
 
 	color: black;
 	font-weight: bold;
-
-
 }
 
 
@@ -304,20 +311,20 @@ h1 {
 
 
 
-/* section 2 LES plus POPULAIRES */
+/* Aside 2 LES plus POPULAIRES */
 
 
 #populaires{
-	width: 30%;
+
 	background-color: #F2F2F2;
 	border-radius: 1rem;
 }
 
 
 #populaires h2{
-	padding: 2rem 0 0 2rem ;
+	
+	padding: 2rem ;
 	font-size: 1.2rem;
-	margin-bottom: 1.3rem;
 
 }
 
@@ -335,12 +342,12 @@ h1 {
 	
 	width : 6.5rem ;
 	height: 7rem;
-	border-radius: 1rem;
-	background-color: white;
+	border-radius: 1rem 0 0 1rem;
+	margin-right: 0.5rem;
+	/*background-color: white;
 	border: 0.3rem white solid;
 	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 13rem 0rem 0rem;
-	margin-bottom: -6.5rem;
+	padding: 0rem 13rem 0rem 0rem;*/
 	
 }
 
@@ -349,32 +356,42 @@ h1 {
 
 	display: flex;
 	flex-direction: column;
-	margin-left: 1.5rem;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	/*margin-left: 1.5rem;*/
+	padding: 1.5rem;
+	padding-bottom: 1.5rem; /* ecart entre les images */
 	
+
+}
+
+#img-popu .bloc_populaire{
+	background-color: white;
+	border: 0.3rem white solid;
+	border-radius: 1rem;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	display: flex;
+	margin-bottom: 1.5rem;
+	width: 90%;
 }
 
 
 
-/* le bloc de description et note */
+
 #populaires figcaption{
 	font-size: 0.8rem;
-	position: relative;
-	bottom: 1.5rem;
-	left: 7.5rem;
-}
-
-
-
-/* etoiles espaces */
-#img-popu i{ 
-	margin-top: 1rem;
-	font-size: 0.7rem;
+	/*position: relative;
+	bottom: 8rem;
+	left: 7.5rem;*/
 }
 
 
 
 
-/* Section ACTIVITES à MARSEILLE */
+
+
+
+/* Section ACTIVITES a MARSEILLE */
 
 /* pas de soulignements */
 #Activites a{
@@ -383,8 +400,19 @@ h1 {
 
 
 
+#Activites img{
+	width: 15rem ; 
+	border-radius: 1rem ;
+	background-color: white;
+	border: 0.25rem white solid;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 3rem 0rem;
+
+}
+
+
 #Activites h2{
-	margin: 3rem 0 0 0;
+	margin-top: 3rem;
 
 }
 
@@ -392,83 +420,33 @@ h1 {
 
 #Activites h3{
 
-	margin-top: -2rem;
+	margin-top: -3rem;
 	margin-bottom: 1rem;
 	margin-left: 0.5rem;
-	font-size: 13px;
+	font-size: 14px;
 	color: black;
 
 }
-
-
-
-#Activites img{
-	width: 14rem ; 
-	height: 9.5rem;
-	border-radius: 1rem ;
-	background-color: white;
-	border-bottom: 0.25rem white solid;
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 0rem 2rem 0rem;
-	
-	
-}
-
-
 
 #img-act{
 
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: -2.5rem;
-}
-
-
-
-
-#image-vieux-port img{
-	height: 18.5rem;
-	width: 14rem;
 
 }
 
 
 
-#image-fort-pomegues img{
-	height: 9rem;
+#image-vieux-port{
+	
+
+}
+
+
+#Activites img{
+	height: 8rem;
 	width: 15rem;
 }
-
-
-
-#image-iles-frioul img{
-	height: 6rem;
-}
-
-
-
-
-#image-parc-calanques img{
-	height: 18.5rem;
-	width: 14rem;
-}
-
-
-#image-dame-garde img{
-	height: 7rem;
-}
-
-
-
-#image-parc-longchamp img{
-	height: 7.5rem;
-}
-
-
-
-#
-
-
 
 
 
@@ -490,11 +468,13 @@ footer{
 #foot{
 
 	display: flex;
-	margin-top: 4rem;
+	align-items: ; /* aligne les 3 categories au milieu */
+
 }
 
 #foot a{ /* pas de soulignement */
 	text-decoration: none;
+	color: black ;
 }
 
 
@@ -503,7 +483,9 @@ footer{
 	color:#0065FC;
 }
 
-
+#foot a:visited{
+	color: black ;
+}
 
 #propos{
 
@@ -531,14 +513,13 @@ footer{
 	color: #F2F2F2;
 }
 
+/* version mobile */
+@media screen and (max-width: 700px){
+	#Hebergements{
 
-
-
-@media screen and (max-width: 920px){
-	.etoile-grise{
-		color:red;
 	}
 }
+
 
 
 
