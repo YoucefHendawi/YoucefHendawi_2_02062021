@@ -418,31 +418,11 @@ h1 {
 
 
 
-
-
 /* Section ACTIVITES a MARSEILLE */
 
 /* pas de soulignements */
 #Activites a{
 	text-decoration: none;
-}
-
-
-
-#Activites img{
-	width: 15rem ; 
-	border-radius: 1rem ;
-	background-color: white;
-	border: 0.25rem white solid;
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 0rem 3rem 0rem;
-
-}
-
-
-#Activites h2{
-	margin-top: 3rem;
-
 }
 
 
@@ -454,28 +434,47 @@ h1 {
 	margin-left: 0.5rem;
 	font-size: 14px;
 	color: black;
-
 }
 
-#img-act{
+
+
+#Activites h2{
+	margin-top: 3rem;
+	font-size: 1.2rem;
+}
+
+
+#img-act {
 
 	display: flex;
 	flex-wrap: wrap;
+}
+
+
+
+#img-act img{
+
+	width: 15rem ; 
+	height: 20rem;
+	border-radius: 1rem ;
+	background-color: white;
+	border: 0.25rem white solid;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 3rem 0rem;
 
 }
+
+
 
 
 
 #image-vieux-port{
-	
+	height: 20rem;
 
 }
 
 
-#Activites img{
-	height: 8rem;
-	width: 15rem;
-}
+
 
 
 
@@ -501,6 +500,8 @@ footer{
 
 }
 
+
+
 #foot a{ /* pas de soulignement */
 	text-decoration: none;
 	color: black ;
@@ -512,9 +513,13 @@ footer{
 	color:#0065FC;
 }
 
+
+
 #foot a:visited{
 	color: black ;
 }
+
+
 
 #propos{
 
@@ -541,6 +546,8 @@ footer{
 .etoile-grise{
 	color: #F2F2F2;
 }
+
+
 
 /* version mobile */
 @media screen and (max-width: 700px){
