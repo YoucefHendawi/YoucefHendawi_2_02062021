@@ -426,14 +426,42 @@ h1 {
 }
 
 
+#Activites {
+	background-color: grey;
+	width: 100%;
+	padding-bottom: 2rem;
+}
+
+
+#img-act img{
+	display: flex;
+	width: 15.5rem ; 
+	border-radius: 1rem ;
+	background-color: white;
+	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #F2F2F2;
+	padding: 0rem 0rem 2.8rem 0rem;
+	margin: 0 0 -0.5rem -2.3rem; /* ecart entre les images */
+
+}
+
+
+
+#img-act {
+
+	display: flex;
+	flex-wrap: nowrap;
+	margin-bottom: 3.5rem; /* marge entre le bloc d'images et le footer en bas */ 
+}
+
+
+
 
 #Activites h3{
 
-	margin-top: -3rem;
-	margin-bottom: 1rem;
-	margin-left: 0.5rem;
-	font-size: 14px;
+	font-size: 13.5px;
 	color: black;
+	
+
 }
 
 
@@ -444,43 +472,51 @@ h1 {
 }
 
 
-#img-act {
-
-	display: flex;
-	flex-wrap: wrap;
-}
 
 
+#image-vieux-port img{
 
-#img-act img{
-
-	width: 15rem ; 
 	height: 20rem;
-	border-radius: 1rem ;
-	background-color: white;
-	border: 0.25rem white solid;
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
-	padding: 0rem 0rem 3rem 0rem;
-
 }
 
 
 
+#fort-pomegues img {
+
+ 	height : 9rem;
+}
 
 
-#image-vieux-port{
+
+#image-iles-frioul img {
+	height: 6rem;
+	margin-top: 15rem;
+	margin-left: -20.5rem;
+}
+
+
+
+#image-parc-calanques img {
+
 	height: 20rem;
+	margin-left: -8.5rem;
+}
+
+
+
+#image-dame-garde img{
+
+	height: 8rem;
 
 }
 
 
 
-
-
-
-
-
-
+#image-parc-longchamp img{
+	height: 8rem;
+	margin-top: 14rem;
+	margin-left: -20.5rem;
+}
 
 
 
