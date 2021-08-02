@@ -427,9 +427,10 @@ h1 {
 
 
 #Activites {
-	background-color: grey;
+	
 	width: 100%;
 	padding-bottom: 2rem;
+	margin: auto;
 }
 
 
@@ -440,7 +441,7 @@ h1 {
 	background-color: white;
 	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #F2F2F2;
 	padding: 0rem 0rem 2.8rem 0rem;
-	margin: 0 0 -0.5rem -2.3rem; /* ecart entre les images */
+	margin: 0 0 0rem -2.3rem; /* ecart entre les images */
 
 }
 
@@ -460,7 +461,7 @@ h1 {
 
 	font-size: 13.5px;
 	color: black;
-	
+
 
 }
 
@@ -476,7 +477,7 @@ h1 {
 
 #image-vieux-port img{
 
-	height: 20rem;
+	height: 21rem;
 }
 
 
@@ -498,8 +499,8 @@ h1 {
 
 #image-parc-calanques img {
 
-	height: 20rem;
-	margin-left: -8.5rem;
+	height: 21rem;
+	margin-left: -9.5rem;
 }
 
 
