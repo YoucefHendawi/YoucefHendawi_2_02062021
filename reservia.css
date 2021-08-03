@@ -451,7 +451,7 @@ h1 {
 
 	display: flex;
 	flex-wrap: nowrap;
-	margin-bottom: 3.5rem; /* marge entre le bloc d'images et le footer en bas */ 
+	margin-bottom: -1rem; /* marge entre le bloc d'images et le footer en bas */ 
 }
 
 
@@ -484,14 +484,14 @@ h1 {
 
 #fort-pomegues img {
 
- 	height : 9rem;
+ 	height : 9.5rem;
 }
 
 
 
 #image-iles-frioul img {
 	height: 6rem;
-	margin-top: 15rem;
+	margin-top: 16rem;
 	margin-left: -20.5rem;
 }
 
@@ -507,7 +507,7 @@ h1 {
 
 #image-dame-garde img{
 
-	height: 8rem;
+	height: 7.5rem;
 
 }
 
@@ -515,11 +515,15 @@ h1 {
 
 #image-parc-longchamp img{
 	height: 8rem;
-	margin-top: 14rem;
+	margin-top: 13.5rem;
 	margin-left: -20.5rem;
 }
 
 
+#image-parc-longchamp h3{
+	margin: -1.8rem 0 0 -19rem;
+	
+}
 
 /* FOOTER */
 
