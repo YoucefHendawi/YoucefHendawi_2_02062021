@@ -11,7 +11,7 @@ body{
 #inscription { /* les 3 liens ensemble */ 
 	text-align: right ;
 	margin-top: 2.5rem  ; /* la marge au dessus des liens d'inscriptions */
-	width:-50%; /* l'espace que prend les liens */ 
+	margin-right: 7.5rem;
 }
 
 
@@ -102,8 +102,20 @@ h1 {
 	cursor: pointer;
 	margin-left: -0.1em;
 }
+#loupe{
+	color: white;
+	padding : 0.75rem 0.8rem 0.75rem 0.8rem ; /* l'ecart du bleu entre le rechercher et les contours */
+	border-radius: 0rem 0.8rem 0.8rem 0rem; /* mettre un cadre autour */
+	border-color:  #0065fc; /* les contours, les bordures sont bleu */
+	background-color: #0065fc; /* la couleur de fond est bleu */
+	cursor: pointer;
+	margin-left: -0.1em;
+	display: none;
+}
 
-
+#loupe .fa-search{
+	color: white;
+}
 
 /* logo noir recherche */ 
 #localisation{
@@ -214,7 +226,7 @@ h1 {
 	width: 60%; /* taille du bloc HEBERGEMENT */
 	height: 33rem;
 	border-radius: 1rem;
-	margin-right: 2.2rem; /* ecart entre le bloc heber et popu */
+	margin-right: 2.5%; /* ecart entre le bloc heber et popu */
 	
 }
 
@@ -305,13 +317,14 @@ h1 {
 
 	color: black;
 	font-weight: bold;
+	font-size: 14px;
 }
 
 
 
 #afficherplus{
 
-	padding: 1rem 0 2rem 2rem; 
+	padding: 0.5rem 0 2rem 2.5rem; 
 
 }
 
@@ -325,6 +338,7 @@ h1 {
 
 	background-color: #F2F2F2;
 	border-radius: 1rem;
+
 }
 
 
@@ -332,6 +346,8 @@ h1 {
 
 	padding: 1rem 0 0 2rem ;
 	font-size: 1.2rem;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
 
 }
 
@@ -384,12 +400,8 @@ h1 {
 /* les 3 blocs popu sauf le fond gris */
 #img-popu{
 
-	display: flex;
-	flex-direction: column;
-	padding: 0.5rem 1rem 0 2rem; /* espace entre le bloc d'images et le fond gris */
-	padding-bottom: 1rem; /* ecart entre les images */
+	padding: 0.5rem 0.8rem 0 2rem; /* espace entre le bloc d'images et le fond gris */
 	
-
 }
 
 
@@ -430,7 +442,7 @@ h1 {
 	
 	width: 100%;
 	padding-bottom: 2rem;
-	margin: auto;
+	
 }
 
 
@@ -441,7 +453,7 @@ h1 {
 	background-color: white;
 	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #F2F2F2;
 	padding: 0rem 0rem 2.8rem 0rem;
-	margin: 0 0 0rem -2.3rem; /* ecart entre les images */
+	margin: 0 0 0 -2.3rem; /* ecart entre les images */
 
 }
 
@@ -450,10 +462,19 @@ h1 {
 #img-act {
 
 	display: flex;
-	flex-wrap: nowrap;
-	margin-bottom: -1rem; /* marge entre le bloc d'images et le footer en bas */ 
+	margin-right: 4rem;
 }
 
+
+
+
+
+/* toutes les div du bloc entier des images */
+#image-vieux-port,#colonne2, #image-parc-calanques, #colonne4 {
+
+	flex-grow: 1; /* flex-grow sert a faire des colonnes comme je le souhaite */ 
+
+}
 
 
 
@@ -461,8 +482,7 @@ h1 {
 
 	font-size: 13.5px;
 	color: black;
-
-
+	margin: -1.8rem 0 3rem -1.5rem; /* placement du titre et de l'ecart entre les titres et les images */
 }
 
 
@@ -472,10 +492,6 @@ h1 {
 	font-size: 1.2rem;
 }
 
-
-#colonne2, #image-vieux-port, #image-parc-calanques, #colonne4 {
-	flex-grow: 1; /* flex-grow sert a */ 
-}
 
 
 #image-vieux-port img{
@@ -489,12 +505,13 @@ h1 {
 #fort-pomegues img {
 
  	height : 9.5rem;
+
 }
 
 
 
 #image-iles-frioul img {
-	height: 6rem;
+	height: 6.5rem;
 	
 }
 
@@ -503,7 +520,6 @@ h1 {
 #image-parc-calanques img {
 
 	height: 21rem;
-
 }
 
 
@@ -523,7 +539,7 @@ h1 {
 
 
 #image-parc-longchamp h3{
-	margin: -1.8rem 0 0 -19rem;
+	
 	
 }
 
@@ -531,7 +547,8 @@ h1 {
 
 footer{
 	background-color: #F2F2F2;
-
+	width: 98%;
+	height: 10rem;
 }
 
 
@@ -539,8 +556,6 @@ footer{
 #foot{
 
 	display: flex;
-	align-items: ; /* aligne les 3 categories au milieu */
-
 }
 
 
@@ -596,9 +611,37 @@ footer{
 @media screen and (max-width: 700px){
 	#Hebergements{
 		width: 100%;
+		background-color: white;
 
 	}
+	#populaires{
+		width: 100%;
+	}
+
+	#loupe{
+		display: inline-block; /* ca saffiche comme un block */
+
+	}
+	#rechercher{
+		display: none; /* ca saffiche pas */
+	}
+
+	#inscription{
+		display: flex;
+		flex-direction: row;
+	}
+
+
+
+
+
+
+
+
+
+
 }
+
 
 
 
