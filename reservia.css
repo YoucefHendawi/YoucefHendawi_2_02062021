@@ -631,6 +631,12 @@ footer{
 		flex-direction: row;
 	}
 
+	#foot{
+		flex-direction: column;
+		width: 100%;
+		background-color:  #F2F2F2;
+	}
+
 
 
 
