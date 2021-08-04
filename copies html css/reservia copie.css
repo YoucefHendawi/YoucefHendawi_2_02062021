@@ -1,0 +1,656 @@
+body{
+	font-family: 'Raleway', sans-serif; /* la police utilisée */
+	font-size: 14px; /* la taille de la police */
+
+}
+
+
+/* < DEBUT DE LA TETE Inscription > */
+/* DIV entiere */
+
+#inscription { /* les 3 liens ensemble */ 
+	text-align: right ;
+	margin-top: 2.5rem  ; /* la marge au dessus des liens d'inscriptions */
+	margin-right: 7.5rem;
+}
+
+
+
+#inscription a{ /* ce qu'on voit sur les 3 liens la couleur d'ecriture, pas soulignée etc.. */
+	color: black;
+	text-decoration: none; /* pas de soulignement */ 
+
+}
+
+
+#inscription a:hover{ /* le survol sur les 3 liens */
+	color: #0065FC;
+	border-top: 0.18rem solid #0065FC;
+	padding-top: 2.3rem; /* la marge qu'il y'a entre les liens et le trait au survol */
+}
+
+
+#heber{
+	padding: 2rem; /* la marge INTERIEUR sur les cotés de la categorie Hébergements */
+}
+
+
+#act{
+	/* la marge INTERIEUR sur les cotés de la categorie Activités */
+	padding: 1.5rem;
+}
+
+
+
+/* S'INSCRIRE */
+
+#inscrire {
+	font-weight: bold; /* gras */
+	color: #0065FC;
+	padding: 10px; /* marge interieur */ 
+	margin-left: 10px;
+}
+
+
+
+header p{
+	width: 10%;
+	padding-top: -10px;
+
+}
+
+/* < FIN DE LA TETE > */
+
+
+
+/* le logo reservia */
+#reservia{
+
+	width: 100px;
+	margin-top: -30px;
+
+}
+
+
+h1 {
+	text-align: left;
+	font-size: 19px;
+	margin: 1px;
+	margin-top: 20px;
+
+}
+
+
+
+/* en plein centre ville ou en pleine nature */
+#info{
+	font-size : 0.9rem; /* la taille de l'ecriture */
+	margin : 0.5rem 0rem 0.5rem 0rem; /* la marge exterieur entre le H1 et la recherche et de 0.5 en haut et en bas */ 
+
+}
+
+
+
+/* le bouton rechercher */
+#rechercher{
+
+	color: white;
+	padding : 0.75rem 0.8rem 0.75rem 0.8rem ; /* l'ecart du bleu entre le rechercher et les contours */
+	border-radius: 0rem 0.8rem 0.8rem 0rem; /* mettre un cadre autour */
+	border-color:  #0065fc; /* les contours, les bordures sont bleu */
+	background-color: #0065fc; /* la couleur de fond est bleu */
+	cursor: pointer;
+	margin-left: -0.1em;
+}
+#loupe{
+	color: white;
+	padding : 0.75rem 0.8rem 0.75rem 0.8rem ; /* l'ecart du bleu entre le rechercher et les contours */
+	border-radius: 0rem 0.8rem 0.8rem 0rem; /* mettre un cadre autour */
+	border-color:  #0065fc; /* les contours, les bordures sont bleu */
+	background-color: #0065fc; /* la couleur de fond est bleu */
+	cursor: pointer;
+	margin-left: -0.1em;
+	display: none;
+}
+
+#loupe .fa-search{
+	color: white;
+}
+
+/* logo noir recherche */ 
+#localisation{
+	background-color : #F2F2F2 ;
+	padding : 0.91rem 0.97rem 0.97rem 0.97rem ; /* largeur interieur du gris a l'arriere du logo */
+	border-radius : 1rem 0 0 1rem ; /* les contours gris du logo */ 
+	color: black;
+}
+
+/* la barre de recherche */
+#ville{
+	padding : 0.75rem ;
+	border : 0.15rem solid #F2F2F2;
+	border-radius : #F2F2F2 ;
+	margin : -0.25rem ;
+	font-weight: bold;
+
+}
+
+/* TOUTE LA CATEGORIE FILTRES */
+#filtres{
+	display: flex;
+	margin-right: 1rem;
+	align-items: center;
+
+}
+
+
+/* couleur de fonnd des filtres en bleu ciel */
+#filtres :hover{ 
+	background-color: #DEEBFF;
+
+}
+
+/* Marge exterieur du Titre et Filtres */
+#filtres h3 , p{
+	margin-right: 0.5rem;
+}
+
+
+/* les 4 onglets du filtres Eco Familial Roman Animaux */
+#filtres p{
+	display: flex;
+	font-weight: bold;
+	border: 0.15rem solid #F2F2F2; /* l'encadrement, la bordure avec une taille specifique que j'ai choisi */
+	border-radius:2rem;
+	height: 2.215rem; /* la hauteur de l'encadrement, la bordure */
+	padding: 0rem 1rem 0rem 0rem ; /* Marge interieur de l'encadrement, la bordure */
+	margin-left: 0.8rem; /* la marge , l'ecart entre les categories de filtres */
+	align-items: center; /* aligné les noms des filtres */ 
+	cursor: pointer;
+}
+
+/* Les < i > de la categorie filtres */
+#filtres i{
+
+	margin:0.5rem 0.5rem 0.5rem -0.3rem; /* l'emplacement du rond dans le cadre, et l'ecart interieur entre le rond et le texte */
+	background-color: #DEEBFF; /* couleur de fond du rond */
+	padding :0.8rem ; /* marge interieur du rond par rapport au logo interieur */
+	border-radius: 2rem;
+	align-items: center;
+
+}
+
+
+
+
+.fas{ /* les logos en bleu */
+	color :#0065fc;
+
+}
+
+.fa-child{
+
+	padding: 2rem 1rem;
+
+}
+
+/* le i dans ka bordure */
+#logements i{
+	border: 0.15rem solid #F2F2F2; /* contour du i */
+	border-radius: 2rem ; /* contour rond */
+	margin-right: 0.5rem ;
+	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+	align-items: center;
+
+}
+
+/* plus de 500 log .. */
+#logement p{
+	display: flex;
+
+}
+
+
+#bloc_resultats{
+	display: flex;
+}
+
+
+/* Section HEBERGEMENT a MARSEILLE 1 */
+
+
+/* Toute la section */
+#Hebergements{
+
+	background-color: #F2F2F2; /* couleur grise de l'arriere plan */
+	width: 60%; /* taille du bloc HEBERGEMENT */
+	height: 33rem;
+	border-radius: 1rem;
+	margin-right: 2.5%; /* ecart entre le bloc heber et popu */
+	
+}
+
+
+/* images details ( taille bordure etc*/
+#Hebergements img{ 
+	
+	width: 12.5rem ; /* largeur des images */
+	height: 6rem; /* hauteur des images */
+	border-radius: 1rem; /* contour des images */
+	background-color: white; /* arriere plan des images*/
+	border: 0.3rem white solid; /* contour de l'arriere plan des images */
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
+	margin: 0rem -1.5rem; /* marge exterieure pour placer les images */
+	
+}
+
+
+
+#Hebergements a{ /* pas de soulignement */
+
+	text-decoration: none;
+
+}
+
+
+
+/* titre Hebergement a Marseille */
+#Hebergements h2{
+
+	font-size: 1.2rem;
+	padding: 1.5rem 0rem 0rem 2.5rem; /* emplacement du titre dans le cadre */
+	margin-bottom: 0.5rem; /* espace entre le titre et les images */
+
+}
+
+
+
+/* titre des Images */ 
+#Hebergements h3{
+
+	font-size: 14px; /* taille du titre sous l'image */
+	text-align: left ;
+	margin-bottom: -0.7rem;
+	margin-top: -4rem;
+	color: black;
+}
+
+
+
+/* prix et note de la description */
+#Hebergements p{
+
+	color: black;
+	font-size: 0.8rem;
+}
+
+
+
+#Hebergements figcaption{
+	margin-left: -0.5rem; /* emplacement du bloc de description des images */
+	
+	}
+
+
+/* etoiles */
+#Hebergements .fa-star {
+	font-size: 0.6rem; /* taille */
+	padding: 0.5rem 0 0 0;
+}
+
+
+
+/* le groupe d'images */
+#img-heber{
+
+	display: flex;
+	flex-wrap: wrap; /* passe a la lignes si il n'y a plus de place */
+	flex-direction: row; /* organise sur une ligne */
+	justify-content: center; /* place le bloc d'images au milieu du bloc general soit le carré gris */
+	
+}
+
+
+
+#afficherplus a, #afficherplus a:visited{
+
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+
+#afficherplus{
+
+	padding: 0.5rem 0 2rem 2.5rem; 
+
+}
+
+
+
+
+/* Aside 2 LES plus POPULAIRES */
+
+
+#populaires{
+
+	background-color: #F2F2F2;
+	border-radius: 1rem;
+
+}
+
+
+#populaires h2{
+
+	padding: 1rem 0 0 2rem ;
+	font-size: 1.2rem;
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+
+}
+
+
+/* logo bourse */
+.fa-chart-line{
+
+	color:black;
+	padding: 0 3rem 0 5rem; /* ecart entre le titre et le logo a gauche, et ecart a droite entre le logo et le fond gris */
+	font-size: 1.2rem;
+}
+
+
+#populaires h3{
+
+	font-size: 14px;
+	margin-top: 0.5rem;
+}
+
+
+
+/* nuit a partir */
+#populaires p{
+
+	margin-top: -0.6rem;
+}
+
+
+
+
+/* etoiles */
+#populaires .fa-star{
+
+	font-size: 0.6rem;
+	margin-top: 1.5rem;
+}
+
+
+
+/* toutes les images */
+#populaires img{
+	
+	width : 6.5rem ;
+	height: 7rem;
+	border-radius: 1rem 0 0 1rem;
+	margin-right: 1rem; /* marge entre l'image et le texte */
+	
+}
+
+/* les 3 blocs popu sauf le fond gris */
+#img-popu{
+
+	padding: 0.5rem 0.8rem 0 2rem; /* espace entre le bloc d'images et le fond gris */
+	
+}
+
+
+
+
+#img-popu .bloc_populaire{
+
+	background-color: white;
+	border: 0.3rem white solid;
+	border-radius: 1rem;
+	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	display: flex;
+	margin-bottom: 1.5rem;
+	width: 90%;
+}
+
+
+
+
+#populaires figcaption{
+
+	font-size: 0.8rem;
+	
+}
+
+
+
+
+/* Section ACTIVITES a MARSEILLE */
+
+/* pas de soulignements */
+#Activites a{
+	text-decoration: none;
+}
+
+
+#Activites {
+	
+	width: 100%;
+	padding-bottom: 2rem;
+	
+}
+
+
+#img-act img{
+	display: flex;
+	width: 15.5rem ; 
+	border-radius: 1rem ;
+	background-color: white;
+	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #F2F2F2;
+	padding: 0rem 0rem 2.8rem 0rem;
+	margin: 0 0 0 -2.3rem; /* ecart entre les images */
+
+}
+
+
+
+#img-act {
+
+	display: flex;
+	margin-right: 4rem;
+}
+
+
+
+
+
+/* toutes les div du bloc entier des images */
+#image-vieux-port,#colonne2, #image-parc-calanques, #colonne4 {
+
+	flex-grow: 1; /* flex-grow sert a faire des colonnes comme je le souhaite */ 
+
+}
+
+
+
+#Activites h3{
+
+	font-size: 13.5px;
+	color: black;
+	margin: -1.8rem 0 3rem -1.5rem; /* placement du titre et de l'ecart entre les titres et les images */
+}
+
+
+
+#Activites h2{
+	margin-top: 3rem;
+	font-size: 1.2rem;
+}
+
+
+
+#image-vieux-port img{
+
+	height: 21rem;
+
+}
+
+
+
+#fort-pomegues img {
+
+ 	height : 9.5rem;
+
+}
+
+
+
+#image-iles-frioul img {
+	height: 6.5rem;
+	
+}
+
+
+
+#image-parc-calanques img {
+
+	height: 21rem;
+}
+
+
+
+#image-dame-garde img{
+
+	height: 7.5rem;
+
+}
+
+
+
+#image-parc-longchamp img{
+	height: 8rem;
+
+}
+
+
+#image-parc-longchamp h3{
+	
+	
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #F2F2F2;
+	width: 98%;
+	height: 10rem;
+}
+
+
+/* div pour les 3 categories */
+#foot{
+
+	display: flex;
+}
+
+
+
+#foot a{ /* pas de soulignement */
+	text-decoration: none;
+	color: black ;
+}
+
+
+
+#foot a:hover{ /* sur les liens la couleur devient bleu */
+	color:#0065FC;
+}
+
+
+
+#foot a:visited{
+	color: black ;
+}
+
+
+
+#propos{
+
+	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+}
+
+
+
+#charte{
+	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+
+}
+
+
+
+#Assistance{
+	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+}
+
+
+
+
+
+.etoile-grise{
+	color: #F2F2F2;
+}
+
+
+
+/* version mobile */
+@media screen and (max-width: 700px){
+	#Hebergements{
+		width: 100%;
+		background-color: white;
+
+	}
+	#populaires{
+		width: 100%;
+	}
+
+	#loupe{
+		display: inline-block; /* ca saffiche comme un block */
+
+	}
+	#rechercher{
+		display: none; /* ca saffiche pas */
+	}
+
+	#inscription{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#foot{
+		flex-direction: column;
+		width: 100%;
+		background-color:  #F2F2F2;
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
