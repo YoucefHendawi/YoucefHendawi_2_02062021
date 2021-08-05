@@ -102,6 +102,10 @@ h1 {
 	cursor: pointer;
 	margin-left: -0.1em;
 }
+
+
+
+/* pour telephone*/
 #loupe{
 	color: white;
 	padding : 0.75rem 0.8rem 0.75rem 0.8rem ; /* l'ecart du bleu entre le rechercher et les contours */
@@ -110,7 +114,7 @@ h1 {
 	background-color: #0065fc; /* la couleur de fond est bleu */
 	cursor: pointer;
 	margin-left: -0.1em;
-	display: none;
+	display: none; /* indique que la loupe ne se voit pas mais dans la partie media j'indiquerais que ca s'affiche*/
 }
 
 #loupe .fa-search{
@@ -224,7 +228,7 @@ h1 {
 
 	background-color: #F2F2F2; /* couleur grise de l'arriere plan */
 	width: 60%; /* taille du bloc HEBERGEMENT */
-	height: 33rem;
+	height: 100%;
 	border-radius: 1rem;
 	margin-right: 2.5%; /* ecart entre le bloc heber et popu */
 	
