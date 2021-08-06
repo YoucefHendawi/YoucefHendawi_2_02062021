@@ -215,10 +215,12 @@ h1 {
 }
 
 
+
 #bloc_resultats{
 	display: flex;
 	width: 100%;
 }
+
 
 
 /* Section HEBERGEMENT a MARSEILLE 1 */
@@ -228,7 +230,7 @@ h1 {
 #Hebergements{
 
 	background-color: #F2F2F2; /* couleur grise de l'arriere plan */
-	width: 100%; /* taille du bloc HEBERGEMENT */
+	width: 70%; /* taille du bloc HEBERGEMENT */
 	height: 100%;
 	border-radius: 1rem;
 	margin-right: 2.5%; /* ecart entre le bloc heber et popu */
@@ -239,14 +241,14 @@ h1 {
 /* images details ( taille bordure etc*/
 #Hebergements img{ 
 	
-	width: 13.5rem ; /* largeur des images */
+	width: 14rem ; /* largeur des images */
 	height: 7rem; /* hauteur des images */
 	border-radius: 1rem; /* contour des images */
 	background-color: white; /* arriere plan des images*/
 	border: 0.3rem white solid; /* contour de l'arriere plan des images */
 	box-shadow: 0.5rem 0.5rem 0.5rem #d2d3d3;
 	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
-	margin: 0rem -1.5rem; /* marge exterieure pour placer les images */
+	margin: 0.5rem -2rem 0 -0.4rem; /* marge exterieure pour placer les images */
 	
 }
 
@@ -293,7 +295,7 @@ h1 {
 
 
 #Hebergements figcaption{
-	margin-left: -0.5rem; /* emplacement du bloc de description des images */
+	margin-left: 1rem; /* emplacement du bloc de description des images */
 	
 	}
 
@@ -312,7 +314,7 @@ h1 {
 	display: flex;
 	flex-wrap: wrap; /* passe a la lignes si il n'y a plus de place */
 	flex-direction: row; /* organise sur une ligne */
-	justify-content: center; /* place le bloc d'images au milieu du bloc general soit le carré gris */
+	justify-content:flex-start ; /* place le bloc d'images au milieu du bloc general soit le carré gris */
 	
 }
 
@@ -341,11 +343,11 @@ h1 {
 
 #populaires{
 
-	width: 100% ; /* largeur des images */
-	height: 100%; /* hauteur des images */
+	width: 30% ; /* largeur des images */
+	
 	border-radius: 1rem; /* contour des images */
 	background-color: #F2F2F2; /* arriere plan des images*/
-	border: 0.3rem white solid; /* contour de l'arriere plan des images */
+	border: 0.3rem #F2F2F2 solid; /* contour de l'arriere plan des images */
 	box-shadow: 0.5rem 0.5rem 0.5rem #d2d3d3;
 	padding: 0rem 0rem 1rem 0rem; /* marge interieure des contours des images */
 	margin: 0rem -1.5rem 0 0; /* marge exterieure pour placer les images */
@@ -456,6 +458,7 @@ h1 {
 #Activites {
 	
 	width: 100%;
+	height: 100%;
 	padding-bottom: 2rem;
 	
 }
@@ -463,12 +466,12 @@ h1 {
 
 #img-act img{
 	display: flex;
-	width: 100% ; 
+	width: 100% ;
 	border-radius: 1rem ;
 	background-color: white;
 	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #F2F2F2;
 	padding: 0rem 0rem 2.8rem 0rem;
-	margin: 0 0 0 -2.3rem; /* ecart entre les images */
+	margin: 0 -2rem 0 -2.3rem; /* ecart entre les images */
 
 }
 
@@ -477,7 +480,7 @@ h1 {
 #img-act {
 
 	display: flex;
-	margin-right: 4rem;
+	
 }
 
 
@@ -509,9 +512,10 @@ h1 {
 
 
 
-#image-vieux-port img{
+#image-vieux-port , #fort-pomegues , #image-iles-frioul, #image-parc-calanques, #image-dame-garde, #image-parc-longchamp img{
 
-	height: 21rem;
+	height: 100%;
+	width: 100%;
 
 }
 
@@ -519,14 +523,16 @@ h1 {
 
 #fort-pomegues img {
 
- 	height : 9.5rem;
-
+ 	height : 100%;
+ 	width : 100%;
 }
 
 
 
 #image-iles-frioul img {
-	height: 6.5rem;
+
+	height: 100%;
+	width: 100%;
 	
 }
 
@@ -534,29 +540,28 @@ h1 {
 
 #image-parc-calanques img {
 
-	height: 21rem;
+	height: 100%;
+	width : 100%;
 }
 
 
 
 #image-dame-garde img{
 
-	height: 7.5rem;
+	height: 100%;
+	width : 100%;
 
 }
 
 
 
 #image-parc-longchamp img{
-	height: 8rem;
+	height: 100%;
+	width : 100%;
 
 }
 
 
-#image-parc-longchamp h3{
-	
-	
-}
 
 /* FOOTER */
 
