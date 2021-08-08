@@ -142,7 +142,7 @@ h1 {
 /* TOUTE LA CATEGORIE FILTRES */
 #filtres{
 	display: flex;
-	margin-right: 1rem;
+	margin-right: 2rem;
 	align-items: center;
 
 }
@@ -156,7 +156,7 @@ h1 {
 
 /* Marge exterieur du Titre et Filtres */
 #filtres h3 , p{
-	margin-right: 0.5rem;
+	margin-right: 1rem;
 }
 
 
@@ -198,20 +198,21 @@ h1 {
 
 }
 
-/* le i dans ka bordure */
+/* le i dans la bordure */
 #logements i{
 	border: 0.15rem solid #F2F2F2; /* contour du i */
 	border-radius: 2rem ; /* contour rond */
 	margin-right: 0.5rem ;
-	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+	padding: 0.2rem 0.4rem 0.25rem 0.4rem;
 	align-items: center;
+
 
 }
 
 /* plus de 500 log .. */
-#logement p{
+#logements p{
 	display: flex;
-
+	width: 70%;
 }
 
 
@@ -267,7 +268,7 @@ h1 {
 
 	font-size: 1.2rem;
 	margin-bottom: 0.5rem; /* espace entre le titre et les images */
-
+	padding-left: 1rem;
 }
 
 
@@ -314,7 +315,7 @@ h1 {
 	flex-wrap: wrap; /* passe a la lignes si il n'y a plus de place */
 	flex-direction: row; /* organise sur une ligne */
 	justify-content:flex-start ; /* place le bloc d'images au milieu du bloc general soit le carré gris */
-	
+	margin-left: -1.7rem;
 }
 
 
@@ -370,7 +371,7 @@ h1 {
 #populaires h2{
 
 	font-size: 1.2rem;
-	margin-bottom: 0rem;
+	margin-left: 2.5%;
 
 }
 
@@ -425,7 +426,7 @@ h1 {
 /* les 3 blocs popu sauf le fond gris */
 #img-popu{
 
-	/*padding: 0.5rem 0.8rem 0 2rem; /* espace entre le bloc d'images et le fond gris */
+	padding-left: 2.5% ;  /* espace entre le bloc d'images et le fond gris */
 	
 }
 
@@ -527,7 +528,7 @@ h1 {
 
 
 #image-vieux-port , #fort-pomegues , #image-iles-frioul, #image-parc-calanques, #image-dame-garde, #image-parc-longchamp img{
-
+	display: flex;
 	width: 100%;
 	object-fit: cover;
 	padding-bottom: 3rem;
@@ -542,48 +543,6 @@ h1 {
 	max-height: 17rem;
 }
 
-
-/*
-
-#fort-pomegues img {
-
- 	height : 100%;
- 	width : 100%;
-}
-
-
-
-#image-iles-frioul img {
-
-	height: 100%;
-	width: 100%;
-	
-}
-
-
-
-#image-parc-calanques img {
-
-	height: 100%;
-	width : 100%;
-}
-
-
-
-#image-dame-garde img{
-
-	height: 100%;
-	width : 100%;
-
-}
-
-
-
-#image-parc-longchamp img{
-	height: 100%;
-	width : 100%;
-
-}*/
 
 
 
