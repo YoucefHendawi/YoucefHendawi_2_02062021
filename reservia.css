@@ -250,7 +250,7 @@ h1 {
 	box-shadow: 0.5rem 0.5rem 0.5rem #d2d3d3;
 	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
 	object-fit: cover; 
-	
+	margin: 0 -2.7rem 0.5rem 0;
 }
 
 
@@ -279,7 +279,7 @@ h1 {
 	font-size: 14px; /* taille du titre sous l'image */
 	text-align: left ;
 	margin-bottom: -0.7rem;
-	margin-top: -4rem;
+	margin-top: -4.5rem;
 	color: black;
 }
 
@@ -313,8 +313,6 @@ h1 {
 
 	display: flex;
 	flex-wrap: wrap; /* passe a la lignes si il n'y a plus de place */
-	flex-direction: row; /* organise sur une ligne */
-	justify-content:flex-start ; /* place le bloc d'images au milieu du bloc general soit le carré gris */
 	margin-left: -1.7rem;
 }
 
@@ -333,7 +331,7 @@ h1 {
 #afficherplus{
 
 	padding-bottom: 2rem;
-	margin: 2rem 0 0 2rem;
+	margin: 2% 0 0 2%;
 }
 
 
@@ -345,7 +343,7 @@ h1 {
 #populaires{
 
 	width: 30% ; /* largeur des images */
-	height: 100%; /* hauteur des images */
+	 /* hauteur des images */
 	border-radius: 1rem; /* contour des images */
 	background-color: #F2F2F2; /* arriere plan des images*/
 	border: 0.3rem #F2F2F2 solid; /* contour de l'arriere plan des images */
@@ -361,7 +359,7 @@ h1 {
 	border-radius: 1rem 0 0 1rem;
 	margin-right: 1rem; /* marge entre l'image et le texte */
 	width : 70%;
-	height: auto;
+	height: auto; /* taille des images interieur */ /* pas a la meme taille */
 	object-fit: cover;
 }
 
@@ -416,8 +414,8 @@ h1 {
 #populaires .fa-star{
 
 	font-size: 0.6rem;
-	margin-top: 2.2rem;
-
+	
+	padding-top: 4.2rem; /* espace des etoiles !!! entre le texte */
 }
 
 
@@ -460,7 +458,8 @@ h1 {
 
 #populaires .note{
 	position: absolute;
-	
+	bottom: 0.5rem;
+	margin: 0;
 }
 
 
