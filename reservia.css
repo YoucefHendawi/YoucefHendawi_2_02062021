@@ -113,7 +113,7 @@ h1 {
 	border-color:  #0065fc; /* les contours, les bordures sont bleu */
 	background-color: #0065fc; /* la couleur de fond est bleu */
 	cursor: pointer;
-	margin-left: -0.1rem;
+	margin-left: -0.1em;
 	display: none; /* indique que la loupe ne se voit pas mais dans la partie media j'indiquerais que ca s'affiche*/
 }
 
@@ -142,7 +142,7 @@ h1 {
 /* TOUTE LA CATEGORIE FILTRES */
 #filtres{
 	display: flex;
-	margin-right: 2rem;
+	margin-right: 1rem;
 	align-items: center;
 
 }
@@ -618,6 +618,8 @@ footer{
 	}
 	#populaires{
 		width: 100%;
+		border-radius: 0;
+		padding: 0;
 	}
 
 	#loupe{
@@ -639,12 +641,37 @@ footer{
 		background-color:  #F2F2F2;
 	}
 
+	#img-act{
+		flex-direction: column;
 
+	}
 
+	#filtres{
+		display: inline-block;
 
+	}
 
+	#filtres p{
 
+	}
 
+#bloc_resultats{
+		display: block;
+	}
+	
+#img-act figure{
+		max-height: 12rem;
+		height: 9rem;
+		position: relative;
+	}
+
+#img-act img{
+		margin: 0;
+	}
+	
+#Activites h3{
+	margin-left: 1rem;
+}
 
 
 
