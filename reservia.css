@@ -538,8 +538,11 @@ h1 {
 	display: flex;
 }
 
+
+
 #img-act #colonne2 figure, #img-act #colonne4 figure{
-	max-height: 17rem;
+	max-height: 9rem;
+	width: 100%;
 }
 
 
@@ -583,20 +586,20 @@ footer{
 
 #propos{
 
-	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+	flex-grow: 1;	/* la marge entre les blocs */
 }
 
 
 
 #charte{
-	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+ 	flex-grow: 1;	/* la marge entre les blocs */
 
 }
 
 
 
 #Assistance{
-	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+	 flex-grow: 1;	/* la marge entre les blocs */
 }
 
 
@@ -619,7 +622,7 @@ footer{
 	#populaires{
 		width: 100%;
 		border-radius: 0;
-		padding: 0;
+	
 	}
 
 	#loupe{
@@ -670,8 +673,18 @@ footer{
 	}
 	
 #Activites h3{
-	margin-left: 1rem;
+	margin-left: 1rem; /* marge du titre dans l'encadrement */
 }
+
+h1{
+	width: 65%; /* 65 sur 100% de l'ecran est prit pour le titre */
+}
+
+
+
+
+
+
 
 
 
