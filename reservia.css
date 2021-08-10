@@ -11,7 +11,7 @@ body{
 #inscription { /* les 3 liens ensemble */ 
 	text-align: right ;
 	margin-top: 2.5rem  ; /* la marge au dessus des liens d'inscriptions */
-	width:-50%; /* l'espace que prend les liens */ 
+	
 }
 
 
@@ -105,6 +105,22 @@ h1 {
 
 
 
+/* pour telephone*/
+#loupe{
+	color: white;
+	padding : 0.75rem 0.8rem 0.75rem 0.8rem ; /* l'ecart du bleu entre le rechercher et les contours */
+	border-radius: 0rem 0.8rem 0.8rem 0rem; /* mettre un cadre autour */
+	border-color:  #0065fc; /* les contours, les bordures sont bleu */
+	background-color: #0065fc; /* la couleur de fond est bleu */
+	cursor: pointer;
+	margin-left: -0.1em;
+	display: none; /* indique que la loupe ne se voit pas mais dans la partie media j'indiquerais que ca s'affiche*/
+}
+
+#loupe .fa-search{
+	color: white;
+}
+
 /* logo noir recherche */ 
 #localisation{
 	background-color : #F2F2F2 ;
@@ -140,7 +156,7 @@ h1 {
 
 /* Marge exterieur du Titre et Filtres */
 #filtres h3 , p{
-	margin-right: 0.5rem;
+	margin-right: 1rem;
 }
 
 
@@ -182,26 +198,31 @@ h1 {
 
 }
 
-/* le i dans ka bordure */
+/* le i dans la bordure */
 #logements i{
 	border: 0.15rem solid #F2F2F2; /* contour du i */
 	border-radius: 2rem ; /* contour rond */
 	margin-right: 0.5rem ;
-	padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+	padding: 0.2rem 0.4rem 0.25rem 0.4rem;
 	align-items: center;
+
 
 }
 
 /* plus de 500 log .. */
-#logement p{
+#logements p{
 	display: flex;
-
+	width: 70%;
 }
+
 
 
 #bloc_resultats{
 	display: flex;
+	width: 100%;
+	margin-bottom: 3rem;
 }
+
 
 
 /* Section HEBERGEMENT a MARSEILLE 1 */
@@ -211,26 +232,25 @@ h1 {
 #Hebergements{
 
 	background-color: #F2F2F2; /* couleur grise de l'arriere plan */
-	width: 60%; /* taille du bloc HEBERGEMENT */
-	height: 33rem;
+	width: 70%; /* taille du bloc HEBERGEMENT */
 	border-radius: 1rem;
-	margin-right: 2.2rem; /* ecart entre le bloc heber et popu */
-	
+	margin-right: 2.5%; /* ecart entre le bloc heber et popu */
+	padding: 1rem;
 }
 
 
 /* images details ( taille bordure etc*/
 #Hebergements img{ 
 	
-	width: 12.5rem ; /* largeur des images */
-	height: 6rem; /* hauteur des images */
+	width: 14.5rem ; /* largeur des images */
+	height: 7rem; /* hauteur des images */
 	border-radius: 1rem; /* contour des images */
 	background-color: white; /* arriere plan des images*/
 	border: 0.3rem white solid; /* contour de l'arriere plan des images */
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
+	box-shadow: 0.5rem 0.5rem 0.5rem #d2d3d3;
 	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
-	margin: 0rem -1.5rem; /* marge exterieure pour placer les images */
-	
+	object-fit: cover; 
+	margin: 1rem -2.7rem 0.5rem 0;
 }
 
 
@@ -247,9 +267,8 @@ h1 {
 #Hebergements h2{
 
 	font-size: 1.2rem;
-	padding: 1.5rem 0rem 0rem 2.5rem; /* emplacement du titre dans le cadre */
 	margin-bottom: 0.5rem; /* espace entre le titre et les images */
-
+	padding-left: 1rem;
 }
 
 
@@ -260,7 +279,7 @@ h1 {
 	font-size: 14px; /* taille du titre sous l'image */
 	text-align: left ;
 	margin-bottom: -0.7rem;
-	margin-top: -4rem;
+	margin-top: -4.5rem;
 	color: black;
 }
 
@@ -276,7 +295,7 @@ h1 {
 
 
 #Hebergements figcaption{
-	margin-left: -0.5rem; /* emplacement du bloc de description des images */
+	margin-left: 1rem; /* emplacement du bloc de description des images */
 	
 	}
 
@@ -294,10 +313,9 @@ h1 {
 
 	display: flex;
 	flex-wrap: wrap; /* passe a la lignes si il n'y a plus de place */
-	flex-direction: row; /* organise sur une ligne */
-	justify-content: center; /* place le bloc d'images au milieu du bloc general soit le carré gris */
-	
+	margin-left: -1.7rem;
 }
+
 
 
 
@@ -305,14 +323,14 @@ h1 {
 
 	color: black;
 	font-weight: bold;
+	font-size: 14px;
 }
 
 
 
 #afficherplus{
 
-	padding: 1rem 0 2rem 2rem; 
-
+	margin: 2% 0 0 2%;
 }
 
 
@@ -323,16 +341,46 @@ h1 {
 
 #populaires{
 
-	background-color: #F2F2F2;
-	border-radius: 1rem;
+	width: 30% ; /* largeur des images */
+	 /* hauteur des images */
+	border-radius: 1rem; /* contour des images */
+	background-color: #F2F2F2; /* arriere plan des images*/
+	border: 0.3rem #F2F2F2 solid; /* contour de l'arriere plan des images */
+	padding: 0rem 1.2rem 1rem 0rem; /* marge interieure des contours des images */
+	
 }
+
+
+
+/* toutes les images */
+#populaires img{
+
+	border-radius: 1rem 0 0 1rem;
+	margin-right: 1rem; /* marge entre l'image et le texte */
+	width : 70%;
+	height: auto; /* taille des images interieur */ /* pas a la meme taille */
+	object-fit: cover;
+}
+
+
 
 
 #populaires h2{
 
-	padding: 1rem 0 0 2rem ;
 	font-size: 1.2rem;
+	margin-left: 2.5%;
 
+}
+
+
+/* le <i> de <H2> flotte, reste q droite */
+#populaires h2 i{
+
+	float: right;
+}
+
+#populaires #img-popu{
+	margin-top: 1.5rem;
 }
 
 
@@ -340,14 +388,13 @@ h1 {
 .fa-chart-line{
 
 	color:black;
-	padding: 0 3rem 0 5rem; /* ecart entre le titre et le logo a gauche, et ecart a droite entre le logo et le fond gris */
 	font-size: 1.2rem;
 }
 
 
 #populaires h3{
 
-	font-size: 14px;
+	
 	margin-top: 0.5rem;
 }
 
@@ -366,32 +413,19 @@ h1 {
 #populaires .fa-star{
 
 	font-size: 0.6rem;
-	margin-top: 1.5rem;
+	
+	padding-top: 4.2rem; /* espace des etoiles !!! entre le texte */
 }
 
 
 
-/* toutes les images */
-#populaires img{
-	
-	width : 6.5rem ;
-	height: 7rem;
-	border-radius: 1rem 0 0 1rem;
-	margin-right: 1rem; /* marge entre l'image et le texte */
-	
-}
 
 /* les 3 blocs popu sauf le fond gris */
 #img-popu{
 
-	display: flex;
-	flex-direction: column;
-	padding: 0.5rem 1rem 0 2rem; /* espace entre le bloc d'images et le fond gris */
-	padding-bottom: 1rem; /* ecart entre les images */
+	padding-left: 2.5% ;  /* espace entre le bloc d'images et le fond gris */
 	
-
 }
-
 
 
 
@@ -403,7 +437,9 @@ h1 {
 	box-shadow: 1rem 1rem 1rem #F2F2F2;
 	display: flex;
 	margin-bottom: 1.5rem;
-	width: 90%;
+	max-height: 9.5rem; 
+	width: 100%;
+
 }
 
 
@@ -412,9 +448,18 @@ h1 {
 #populaires figcaption{
 
 	font-size: 0.8rem;
-	
+	position: relative;
+	width: 100%;
+	display: block;
 }
 
+
+
+#populaires .note{
+	position: absolute;
+	bottom: 0.5rem;
+	margin: 0;
+}
 
 
 
@@ -429,31 +474,39 @@ h1 {
 #Activites {
 	
 	width: 100%;
-	padding-bottom: 2rem;
-	margin: auto;
+	height: 100%;
+	padding-bottom: 5rem;
+	
 }
 
 
 #img-act img{
-	display: flex;
-	width: 15.5rem ; 
+
+	width: 100% ;
+	height: 100%;
 	border-radius: 1rem ;
 	background-color: white;
 	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #F2F2F2;
 	padding: 0rem 0rem 2.8rem 0rem;
-	margin: 0 0 0rem -2.3rem; /* ecart entre les images */
-
+	margin: 0 -2rem 0 -2.3rem; /* ecart entre les images */
+	object-fit: cover;
+	
 }
 
 
 
 #img-act {
 
-	display: flex;
-	flex-wrap: nowrap;
-	margin-bottom: -1rem; /* marge entre le bloc d'images et le footer en bas */ 
+	display: flex;	
 }
 
+
+
+/* toutes les div du bloc entier des images */
+#image-vieux-port,#colonne2, #image-parc-calanques, #colonne4 {
+
+	flex-grow: 1; /* flex-grow sert a faire des colonnes comme je le souhaite */ 
+}
 
 
 
@@ -461,75 +514,51 @@ h1 {
 
 	font-size: 13.5px;
 	color: black;
-
-
+	margin: -1.8rem 0 3rem -1.5rem; /* placement du titre et de l'ecart entre les titres et les images */
 }
 
 
 
 #Activites h2{
-	margin-top: 3rem;
+
 	font-size: 1.2rem;
 }
 
 
 
+#image-vieux-port , #fort-pomegues , #image-iles-frioul, #image-parc-calanques, #image-dame-garde, #image-parc-longchamp {
 
-#image-vieux-port img{
+	display: flex;
+	width: 100%;
+	object-fit: cover;
+	padding-bottom: 3rem;
 
-	height: 21rem;
+}
+
+#img-act figure{
+
+	display: flex;
 }
 
 
 
-#fort-pomegues img {
+#img-act #colonne2 figure, #img-act #colonne4 figure{
 
- 	height : 9.5rem;
+	max-height: 9rem;
+	width: 100%;
 }
 
 
 
-#image-iles-frioul img {
-	height: 6rem;
-	margin-top: 16rem;
-	margin-left: -20.5rem;
-}
 
 
-
-#image-parc-calanques img {
-
-	height: 21rem;
-	margin-left: -9.5rem;
-}
-
-
-
-#image-dame-garde img{
-
-	height: 7.5rem;
-
-}
-
-
-
-#image-parc-longchamp img{
-	height: 8rem;
-	margin-top: 13.5rem;
-	margin-left: -20.5rem;
-}
-
-
-#image-parc-longchamp h3{
-	margin: -1.8rem 0 0 -19rem;
-	
-}
 
 /* FOOTER */
 
 footer{
-	background-color: #F2F2F2;
 
+	background-color: #F2F2F2;
+	
 }
 
 
@@ -537,13 +566,13 @@ footer{
 #foot{
 
 	display: flex;
-	align-items: ; /* aligne les 3 categories au milieu */
-
+	padding: 1rem;
 }
 
 
 
 #foot a{ /* pas de soulignement */
+
 	text-decoration: none;
 	color: black ;
 }
@@ -551,12 +580,14 @@ footer{
 
 
 #foot a:hover{ /* sur les liens la couleur devient bleu */
+
 	color:#0065FC;
 }
 
 
 
 #foot a:visited{
+
 	color: black ;
 }
 
@@ -564,20 +595,20 @@ footer{
 
 #propos{
 
-	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+	flex-grow: 1;	/* la marge entre les blocs */
 }
 
 
 
 #charte{
-	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+ 	flex-grow: 1;	/* la marge entre les blocs */
 
 }
 
 
 
 #Assistance{
-	margin: 1rem 14rem 1rem 2rem ; /* la marge entre les blocs */
+	 flex-grow: 1;	/* la marge entre les blocs */
 }
 
 
@@ -593,9 +624,83 @@ footer{
 /* version mobile */
 @media screen and (max-width: 700px){
 	#Hebergements{
+		width: 100%;
+		background-color: white;
 
 	}
+	#populaires{
+		width: 100%;
+		border-radius: 0;
+	
+	}
+
+	#loupe{
+		display: inline-block; /* ca saffiche comme un block */
+
+	}
+	#rechercher{
+		display: none; /* ca saffiche pas */
+	}
+
+	#inscription{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#foot{
+		flex-direction: column;
+		width: 100%;
+		background-color:  #F2F2F2;
+	}
+
+	#img-act{
+		flex-direction: column;
+
+	}
+
+	#filtres{
+		display: inline-block;
+
+	}
+
+	#filtres p{
+
+	}
+
+#bloc_resultats{
+		display: block;
+	}
+	
+#img-act figure{
+		max-height: 12rem;
+		height: 9rem;
+		position: relative;
+	}
+
+#img-act img{
+		margin: 0;
+	}
+	
+#Activites h3{
+	margin-left: 1rem; /* marge du titre dans l'encadrement */
 }
+
+h1{
+	width: 65%; /* 65 sur 100% de l'ecran est prit pour le titre */
+}
+
+#bloc_resultats{
+	flex-direction: column-reverse;
+}
+
+
+
+
+
+
+
+}
+
 
 
 
