@@ -250,7 +250,7 @@ h1 {
 	box-shadow: 0.5rem 0.5rem 0.5rem #d2d3d3;
 	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
 	object-fit: cover; 
-	margin: 0 -2.7rem 0.5rem 0;
+	margin: 1rem -2.7rem 0.5rem 0;
 }
 
 
@@ -330,7 +330,6 @@ h1 {
 
 #afficherplus{
 
-	padding-bottom: 2rem;
 	margin: 2% 0 0 2%;
 }
 
@@ -463,6 +462,7 @@ h1 {
 }
 
 
+
 /* Section ACTIVITES a MARSEILLE */
 
 /* pas de soulignements */
@@ -483,29 +483,29 @@ h1 {
 #img-act img{
 
 	width: 100% ;
+	height: 100%;
 	border-radius: 1rem ;
 	background-color: white;
 	box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #F2F2F2;
 	padding: 0rem 0rem 2.8rem 0rem;
 	margin: 0 -2rem 0 -2.3rem; /* ecart entre les images */
 	object-fit: cover;
-	height: 100%;
+	
 }
 
 
 
 #img-act {
 
-	display: flex;
-	
+	display: flex;	
 }
+
 
 
 /* toutes les div du bloc entier des images */
 #image-vieux-port,#colonne2, #image-parc-calanques, #colonne4 {
 
 	flex-grow: 1; /* flex-grow sert a faire des colonnes comme je le souhaite */ 
-	
 }
 
 
@@ -526,7 +526,8 @@ h1 {
 
 
 
-#image-vieux-port , #fort-pomegues , #image-iles-frioul, #image-parc-calanques, #image-dame-garde, #image-parc-longchamp img{
+#image-vieux-port , #fort-pomegues , #image-iles-frioul, #image-parc-calanques, #image-dame-garde, #image-parc-longchamp {
+
 	display: flex;
 	width: 100%;
 	object-fit: cover;
@@ -535,25 +536,27 @@ h1 {
 }
 
 #img-act figure{
+
 	display: flex;
 }
 
 
 
 #img-act #colonne2 figure, #img-act #colonne4 figure{
+
 	max-height: 9rem;
 	width: 100%;
-	
 }
 
-#image-dame-garde{
-	
-}
+
+
+
 
 
 /* FOOTER */
 
 footer{
+
 	background-color: #F2F2F2;
 	
 }
@@ -569,6 +572,7 @@ footer{
 
 
 #foot a{ /* pas de soulignement */
+
 	text-decoration: none;
 	color: black ;
 }
@@ -576,12 +580,14 @@ footer{
 
 
 #foot a:hover{ /* sur les liens la couleur devient bleu */
+
 	color:#0065FC;
 }
 
 
 
 #foot a:visited{
+
 	color: black ;
 }
 
@@ -683,7 +689,9 @@ h1{
 	width: 65%; /* 65 sur 100% de l'ecran est prit pour le titre */
 }
 
-
+#bloc_resultats{
+	flex-direction: column-reverse;
+}
 
 
 
