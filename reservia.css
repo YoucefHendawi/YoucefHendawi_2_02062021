@@ -512,7 +512,7 @@ h1 {
 
 #Activites h3{
 
-	font-size: 13.5px;
+	font-size: 0.9rem;
 	color: black;
 	margin: -1.8rem 0 3rem -1.5rem; /* placement du titre et de l'ecart entre les titres et les images */
 }
@@ -549,6 +549,32 @@ h1 {
 }
 
 
+/* taille image partie desktop uniquement */
+#colonne4 img{
+
+	width: 20rem;
+	margin-left: -4.5rem;
+}
+
+
+/* taille image partie desktop uniquement */
+#colonne2 img{
+
+	width: 17rem;
+	margin-left: -5rem;
+}
+
+
+/* placement du titre dans la partie pc uniquement */
+#colonne4 h3 ,#colonne2 h3{
+
+	margin-left: -3.7rem;
+}
+
+
+#colonne2{
+	margin-right: 2rem;
+}
 
 
 
@@ -563,139 +589,167 @@ footer{
 
 
 /* div pour les 3 categories */
-#foot{
+	#foot{
 
 	display: flex;
 	padding: 1rem;
-}
+	}
 
 
 
-#foot a{ /* pas de soulignement */
+	#foot a{ /* pas de soulignement */
 
 	text-decoration: none;
 	color: black ;
-}
+	}
 
-
-
-#foot a:hover{ /* sur les liens la couleur devient bleu */
+	#foot a:hover{ /* sur les liens la couleur devient bleu */
 
 	color:#0065FC;
-}
+	}
 
-
-
-#foot a:visited{
+	#foot a:visited{
 
 	color: black ;
-}
+	}
 
-
-
-#propos{
+	#propos{
 
 	flex-grow: 1;	/* la marge entre les blocs */
-}
+	}
 
-
-
-#charte{
+	#charte{
  	flex-grow: 1;	/* la marge entre les blocs */
 
-}
+	}
 
-
-
-#Assistance{
+	#Assistance{
 	 flex-grow: 1;	/* la marge entre les blocs */
-}
+	}
 
-
-
-
-
-.etoile-grise{
+	.etoile-grise{
 	color: #F2F2F2;
-}
+	}
+
+
+
 
 
 
 /* version mobile */
 @media screen and (max-width: 700px){
+
 	#Hebergements{
+
 		width: 100%;
 		background-color: white;
 
 	}
+
+
 	#populaires{
+
 		width: 100%;
 		border-radius: 0;
 	
 	}
 
+
 	#loupe{
+
 		display: inline-block; /* ca saffiche comme un block */
 
 	}
+
+
 	#rechercher{
+
 		display: none; /* ca saffiche pas */
 	}
 
+
 	#inscription{
+
 		display: flex;
 		flex-direction: row;
 	}
 
+
 	#foot{
+
 		flex-direction: column;
 		width: 100%;
 		background-color:  #F2F2F2;
 	}
 
+
 	#img-act{
+
 		flex-direction: column;
 
 	}
 
+
 	#filtres{
+
 		display: inline-block;
 
 	}
 
-	#filtres p{
 
-	}
+	#bloc_resultats{
 
-#bloc_resultats{
 		display: block;
 	}
 	
-#img-act figure{
+
+	#img-act figure{
+
 		max-height: 12rem;
 		height: 9rem;
 		position: relative;
 	}
 
-#img-act img{
+
+	#img-act img{
+
 		margin: 0;
 	}
 	
-#Activites h3{
+
+	#Activites h3{
+
 	margin-left: 1rem; /* marge du titre dans l'encadrement */
-}
 
-h1{
+	}
+
+
+	h1{
+
 	width: 65%; /* 65 sur 100% de l'ecran est prit pour le titre */
+	}
+
+
+
+
+/* sur mobile ici j'ai C/C les valeurs de la partie desktop, j'enleve la marge que j'ai mise sur ecran pc mais je laisse dans les deux cas la largeur de l'ecran a 100% */
+	#colonne4 img{
+
+	width: 100%;
+	margin-left: 0;
+	}
+
+	#colonne2 img{
+
+	width: 100%;
+	margin-left: 0;
+	}
+
+
+/* pas d'ecart entre la colonne 2 et Calanques */
+#colonne2{
+	margin-right: 0;
 }
-
-#bloc_resultats{
-	flex-direction: column-reverse;
-}
-
-
-
-
 
 
 
