@@ -536,6 +536,7 @@ h1 {
 }
 
 
+/* sert a l'image vieux port et parc calanques pour mobile */
 #img-act figure{
 
 	display: flex;
@@ -644,6 +645,49 @@ footer{
 /* version mobile */
 @media screen and (max-width: 700px){
 
+
+
+
+#bloc_resultats{
+
+		display: block;
+	}
+
+h1{
+
+	width: 80%; /* 65 sur 100% de l'ecran est prit pour le titre */
+	}
+
+
+	#filtres{
+
+		display: inline-block;
+
+	}
+
+
+	#loupe{
+
+		display: inline-block; /* ca saffiche comme un block */
+
+	}
+
+
+	#rechercher{
+
+		display: none; /* ca saffiche pas */
+	}
+
+
+	#inscription{
+
+		display: flex;
+		flex-direction: row;
+	}
+
+
+
+
 /*HEBERGEMENT */
 	#Hebergements{
 
@@ -687,38 +731,36 @@ footer{
 
 	#populaires{
 
-		width: 100%;
+		width: 95%;
 		border-radius: 0;
 	
 	}
 
 
-	#loupe{
 
-		display: inline-block; /* ca saffiche comme un block */
+	#img-popu{
 
+	padding-left: 2.5%;  /* espace entre le bloc d'images et le fond gris */
+	
+	}
+
+	
+	#img-popu .bloc_populaire{
+
+	width: 95%;
+
+}
+
+
+
+
+
+	#Activites h2{
+
+	margin-left: 2.6rem;
 	}
 
 
-	#rechercher{
-
-		display: none; /* ca saffiche pas */
-	}
-
-
-	#inscription{
-
-		display: flex;
-		flex-direction: row;
-	}
-
-
-	#foot{
-
-		flex-direction: column;
-		width: 100%;
-		background-color:  #F2F2F2;
-	}
 
 
 	#img-act{
@@ -728,17 +770,6 @@ footer{
 	}
 
 
-	#filtres{
-
-		display: inline-block;
-
-	}
-
-
-	#bloc_resultats{
-
-		display: block;
-	}
 	
 
 	#img-act figure{
@@ -747,6 +778,7 @@ footer{
 		height: 9rem;
 		position: relative;
 	}
+
 
 
 	#img-act img{
@@ -762,19 +794,8 @@ footer{
 	}
 
 
-	h1{
+	
 
-	width: 65%; /* 65 sur 100% de l'ecran est prit pour le titre */
-	}
-
-
-
-/* sur mobile ici j'ai C/C les valeurs de la partie desktop, j'enleve la marge que j'ai mise sur ecran pc mais je laisse dans les deux cas la largeur de l'ecran a 100% */
-	#colonne4 img{
-
-	width: 100%;
-	margin-left: 0;
-	}
 
 	#colonne2 img{
 
@@ -783,20 +804,36 @@ footer{
 	}
 
 
-/* pas d'ecart entre la colonne 2 et Calanques */
-#colonne2{
+	/* pas d'ecart entre la colonne 2 et Calanques */
+	#colonne2{
 	margin-right: 0;
-}
+	}
 
 
-#Activites h2{
+	/* sur mobile ici j'ai C/C les valeurs de la partie desktop, j'enleve la marge que j'ai mise sur ecran pc mais je laisse dans les deux cas la largeur de l'ecran a 100% */
+	#colonne4 img{
 
-	margin-left: 2.6rem;
-}
+	width: 100%;
+	margin-left: 0;
+	}
+
+	
 
 
 
 
+	#foot{
+
+
+		padding-left: 1rem;
+		flex-direction: column;
+		
+		background-color:  #F2F2F2;
+	}
+
+
+	
+	
 
 }
 
