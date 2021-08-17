@@ -9,6 +9,8 @@ body{
 /* DIV entiere */
 
 #inscription { /* les 3 liens ensemble */ 
+	display: flex;
+align-content: flex-end;
 	text-align: right ;
 	margin-top: 2.5rem  ; /* la marge au dessus des liens d'inscriptions */
 	
@@ -205,9 +207,8 @@ h1 {
 	margin-right: 0.5rem ;
 	padding: 0.2rem 0.4rem 0.25rem 0.4rem;
 	align-items: center;
-
-
 }
+
 
 /* plus de 500 log .. */
 #logements p{
@@ -646,14 +647,23 @@ footer{
 @media screen and (max-width: 700px){
 
 
-
-
-#bloc_resultats{
-
-		display: block;
+/* logo i 500 loge... */
+	#logements i{
+	padding: 0.2rem 0.4rem 0.25rem 0.4rem;
+	margin-bottom: 0.7rem
 	}
 
-h1{
+
+
+
+	#bloc_resultats{
+
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+
+	h1{
 
 	width: 80%; /* 65 sur 100% de l'ecran est prit pour le titre */
 	}
@@ -662,14 +672,12 @@ h1{
 	#filtres{
 
 		display: inline-block;
-
 	}
 
 
 	#loupe{
 
 		display: inline-block; /* ca saffiche comme un block */
-
 	}
 
 
@@ -702,7 +710,6 @@ h1{
 	#img-heber{
 
 	display: block;
-	
 	}
 
 
@@ -716,13 +723,12 @@ h1{
 
 		width: 100%;
 		margin: 0.5rem 0 0.5rem 0;
-
 	}
 
 
 	#afficherplus{
 
-	margin: 10% 0 20% 5%;
+	margin: 10% 0 0% 5%;
 	}
 
 /* FIN HEBERGEMENT */
@@ -733,7 +739,6 @@ h1{
 
 		width: 95%;
 		border-radius: 0;
-	
 	}
 
 
@@ -741,19 +746,19 @@ h1{
 	#img-popu{
 
 	padding-left: 2.5%;  /* espace entre le bloc d'images et le fond gris */
-	
 	}
 
 	
 	#img-popu .bloc_populaire{
 
 	width: 95%;
-
-}
-
+	}
 
 
 
+/* FIN POPULAIRES */
+
+/* ACTIVITES */
 
 	#Activites h2{
 
@@ -762,11 +767,9 @@ h1{
 
 
 
-
 	#img-act{
 
 		flex-direction: column;
-
 	}
 
 
@@ -790,11 +793,8 @@ h1{
 	#Activites h3{
 
 	margin-left: 1rem; /* marge du titre dans l'encadrement */
-
 	}
 
-
-	
 
 
 	#colonne2 img{
@@ -817,8 +817,6 @@ h1{
 	margin-left: 0;
 	}
 
-	
-
 
 
 
@@ -827,13 +825,14 @@ h1{
 
 		padding-left: 1rem;
 		flex-direction: column;
-		
 		background-color:  #F2F2F2;
 	}
 
 
 	
-	
+	body{
+		margin:0;
+	}
 
 }
 
