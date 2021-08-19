@@ -1,6 +1,6 @@
 body{
 	font-family: 'Raleway', sans-serif; /* la police utilisée */
-	font-size: 14px; /* la taille de la police */
+	font-size: 1rem; /* la taille de la police */
 
 }
 
@@ -10,10 +10,8 @@ body{
 
 #inscription { /* les 3 liens ensemble */ 
 	display: flex;
-align-content: flex-end;
-	text-align: right ;
+	justify-content: flex-end;
 	margin-top: 2.5rem  ; /* la marge au dessus des liens d'inscriptions */
-	
 }
 
 
@@ -21,7 +19,6 @@ align-content: flex-end;
 #inscription a{ /* ce qu'on voit sur les 3 liens la couleur d'ecriture, pas soulignée etc.. */
 	color: black;
 	text-decoration: none; /* pas de soulignement */ 
-
 }
 
 
@@ -29,17 +26,19 @@ align-content: flex-end;
 	color: #0065FC;
 	border-top: 0.18rem solid #0065FC;
 	padding-top: 2.3rem; /* la marge qu'il y'a entre les liens et le trait au survol */
+
+
 }
 
 
 #heber{
-	padding: 2rem; /* la marge INTERIEUR sur les cotés de la categorie Hébergements */
+	padding-right: 1rem; /* la marge INTERIEUR sur les cotés de la categorie Hébergements */
 }
 
 
 #act{
 	/* la marge INTERIEUR sur les cotés de la categorie Activités */
-	padding: 1.5rem;
+	padding: 2.5rem;
 }
 
 
@@ -49,13 +48,13 @@ align-content: flex-end;
 #inscrire {
 	font-weight: bold; /* gras */
 	color: #0065FC;
-	padding: 10px; /* marge interieur */ 
-	margin-left: 10px;
+	padding: 1rem; /* marge interieur */ 
+	
 }
 
 
 
-header p{
+header img{
 	width: 10%;
 	padding-top: -10px;
 
@@ -68,7 +67,7 @@ header p{
 /* le logo reservia */
 #reservia{
 
-	width: 100px;
+	width: 6rem;
 	margin-top: -30px;
 
 }
@@ -159,6 +158,7 @@ h1 {
 /* Marge exterieur du Titre et Filtres */
 #filtres h3 , p{
 	margin-right: 1rem;
+
 }
 
 
@@ -415,7 +415,7 @@ h1 {
 
 	font-size: 0.6rem;
 	
-	padding-top: 4.2rem; /* espace des etoiles !!! entre le texte */
+	padding-top: 3.5rem; /* espace des etoiles !!! entre le texte */
 }
 
 
@@ -649,25 +649,26 @@ footer{
 
 /* logo i 500 loge... */
 	#logements i{
+
 	padding: 0.2rem 0.4rem 0.25rem 0.4rem;
-	margin-bottom: 0.7rem
+	margin-bottom: 0.7rem;
 	}
 
-
-
-
-	#bloc_resultats{
-
-		display: flex;
-		flex-direction: column-reverse;
-	}
-
-
-	h1{
+h1{
 
 	width: 80%; /* 65 sur 100% de l'ecran est prit pour le titre */
+	padding-left: 1rem;
 	}
 
+
+	#filtres h3 {
+
+	padding-left: 1rem;
+	}
+
+	#filtres p{
+		padding-left: 0;
+	}
 
 	#filtres{
 
@@ -697,6 +698,15 @@ footer{
 
 
 /*HEBERGEMENT */
+
+
+	#bloc_resultats{
+
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+
 	#Hebergements{
 
 		width: 100%;
@@ -737,7 +747,7 @@ footer{
 
 	#populaires{
 
-		width: 95%;
+		width: 100%;
 		border-radius: 0;
 	}
 
@@ -751,7 +761,11 @@ footer{
 	
 	#img-popu .bloc_populaire{
 
-	width: 95%;
+	width: 100%;
+	border: 0.2rem white solid;
+	box-shadow: none;
+	max-height: 9rem; 
+	
 	}
 
 
@@ -762,7 +776,7 @@ footer{
 
 	#Activites h2{
 
-	margin-left: 2.6rem;
+	margin-left: 1.2rem;
 	}
 
 
@@ -770,6 +784,8 @@ footer{
 	#img-act{
 
 		flex-direction: column;
+		margin-left: -1.5rem;
+		margin-right: -1rem;
 	}
 
 
@@ -822,7 +838,6 @@ footer{
 
 	#foot{
 
-
 		padding-left: 1rem;
 		flex-direction: column;
 		background-color:  #F2F2F2;
@@ -836,8 +851,27 @@ footer{
 
 }
 
+/* TABLETTE */ 
+@media screen and (min-width: 701px) and (max-width: 1000px){
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
