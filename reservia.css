@@ -414,7 +414,6 @@ h1 {
 #populaires .fa-star{
 
 	font-size: 0.6rem;
-	
 	padding-top: 3.5rem; /* espace des etoiles !!! entre le texte */
 }
 
@@ -425,7 +424,7 @@ h1 {
 #img-popu{
 
 	padding-left: 2.5% ;  /* espace entre le bloc d'images et le fond gris */
-	
+
 }
 
 
@@ -442,7 +441,6 @@ h1 {
 	width: 100%;
 
 }
-
 
 
 
@@ -756,14 +754,36 @@ h1{
 
 		width: 100%;
 		border-radius: 0;
+		padding: 0;
 	}
 
+/* logo bourse */
+	#populaires h2 i{
+
+	padding-right: 0.5rem;
+}
 
 
 	#img-popu{
 
 	padding-left: 2.5%;  /* espace entre le bloc d'images et le fond gris */
+	width: 95%;
+	padding-right: 0;
 	}
+
+
+#populaires h3{
+
+	width: 100%;
+}
+
+
+#populaires p{
+
+	width: 100%;
+
+}
+
 
 	
 	#img-popu .bloc_populaire{
@@ -791,8 +811,8 @@ h1{
 	#img-act{
 
 		flex-direction: column;
-		margin-left: -1.5rem;
-		margin-right: -1rem;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 
