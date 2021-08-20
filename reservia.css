@@ -22,7 +22,7 @@ body{
 }
 
 
-#inscription a:hover{ /* le survol sur les 3 liens */
+#inscription nav a:hover{ /* le survol sur les 3 liens */
 	color: #0065FC;
 	border-top: 0.18rem solid #0065FC;
 	padding-top: 2.3rem; /* la marge qu'il y'a entre les liens et le trait au survol */
@@ -32,7 +32,7 @@ body{
 
 
 #heber{
-	padding-right: 1rem; /* la marge INTERIEUR sur les cotés de la categorie Hébergements */
+	padding-right: 0.5rem; /* la marge INTERIEUR sur les cotés de la categorie Hébergements */
 }
 
 
@@ -645,6 +645,13 @@ footer{
 
 /* version mobile */
 @media screen and (max-width: 700px){
+
+	#info{
+
+	padding-left: 1rem;
+	}
+
+
 
 
 /* logo i 500 loge... */
