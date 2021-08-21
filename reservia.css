@@ -644,6 +644,7 @@ footer{
 /* version mobile */
 @media screen and (max-width: 700px){
 
+
 	#info{
 
 	padding-left: 1rem;
@@ -659,11 +660,23 @@ footer{
 	margin-bottom: 0.7rem;
 	}
 
+
+/* Plus de 500 log ... */
+	#logements p{
+
+	width: 95%;
+	margin-left: 0.5rem;
+	margin-right: 0;
+	}
+
+
+
 h1{
 
 	width: 80%; /* 65 sur 100% de l'ecran est prit pour le titre */
 	padding-left: 1rem;
 	}
+
 
 
 	#filtres h3 {
@@ -701,7 +714,6 @@ h1{
 
 
 
-
 /*HEBERGEMENT */
 
 
@@ -725,6 +737,7 @@ h1{
 	#img-heber{
 
 	display: block;
+	margin: 0 0.7rem 0 -1.9rem;
 	}
 
 
@@ -756,18 +769,19 @@ h1{
 		width: 100%;
 		border-radius: 0;
 		padding: 0;
+		border: none;
 	}
 
 /* logo bourse */
 	#populaires h2 i{
 
-	padding-right: 0.5rem;
+	padding-right: 1rem;
 }
 
 
 	#img-popu{
 
-	padding-left: 2.5%;  /* espace entre le bloc d'images et le fond gris */
+	
 	width: 95%;
 	padding-right: 0;
 	}
@@ -789,7 +803,7 @@ h1{
 	
 	#img-popu .bloc_populaire{
 
-	width: 100%;
+	width: 98%;
 	border: 0.2rem white solid;
 	box-shadow: none;
 	max-height: 9rem; 
@@ -813,7 +827,7 @@ h1{
 
 		flex-direction: column;
 		margin-left: 0;
-		margin-right: 0;
+		margin-right: 0.5rem;
 	}
 
 
