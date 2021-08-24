@@ -996,17 +996,16 @@ h1{
 
 
 
-	#filtres{
+	#filtres h3{
 
-		
-		flex-direction: column;
-		align-items: initial;
+		margin-right: 0.8rem;
+
 	}
 
 
 /* eco familila romantique animaux */
 	#filtres p{
-		margin-left: 0;
+		margin-left: -0.2rem;
 	}
 
 
@@ -1047,6 +1046,7 @@ h1{
 	#populaires h2 i{
 
 	padding-right: 1rem;
+	font-size: 1.5rem;
 	}
 
 
@@ -1061,6 +1061,7 @@ h1{
 	#populaires h3{
 
 	width: 100%;
+	font-size: 1.2rem;
 	}
 
 
