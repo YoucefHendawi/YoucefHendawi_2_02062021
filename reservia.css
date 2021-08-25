@@ -1100,6 +1100,12 @@ h1{
 	}
 
 
+/* pour que les images suivent la taille de l'ecran */
+	#Activites a{
+
+	width: 100%;
+	}
+
 
 	#img-act{
 
