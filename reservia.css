@@ -4,7 +4,10 @@ body{
 
 }
 
-
+#wraper{
+	margin: 0;
+	max-width: 1080px;
+}
 /* < DEBUT DE LA TETE Inscription > */
 /* DIV entiere */
 
