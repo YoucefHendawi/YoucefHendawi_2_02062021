@@ -262,7 +262,7 @@ h1 {
 	box-shadow: 0.5rem 0.5rem 0.5rem #d2d3d3;
 	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
 	object-fit: cover; 
-	margin: 1rem -2.7rem 0.5rem 0;
+	margin: 1rem 0 0 2rem;
 }
 
 
@@ -291,7 +291,7 @@ h1 {
 	font-size: 14px; /* taille du titre sous l'image */
 	text-align: left ;
 	margin-bottom: -0.7rem;
-	margin-top: -4.5rem;
+	margin-top: -5rem;
 	color: black;
 }
 
@@ -307,7 +307,7 @@ h1 {
 
 
 #Hebergements figcaption{
-	margin-left: 1rem; /* emplacement du bloc de description des images */
+	margin-left: 0.5rem; /* emplacement du bloc de description des images */
 	
 	}
 
