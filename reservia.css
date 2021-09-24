@@ -159,9 +159,19 @@ h1 {
 
 }
 
+#deuxfiltres{
 
+	display: flex;
+}
+
+
+
+#deux_filtres{
+
+	display: flex;
+}
 /* couleur de fonnd des filtres en bleu ciel */
-#filtres :hover{ 
+#filtres p:hover{ 
 	background-color: #DEEBFF;
 
 }
@@ -768,16 +778,42 @@ h1{
 	#filtres h3 {
 
 	padding-left: 1rem;
+	margin-right: 0;
 	}
 
 	#filtres p{
 		padding-left: 0;
+		margin-right: 0;
+
 	}
 
 	#filtres{
 
 		display: inline-block;
+		border-width: 1rem;
+		margin-right: 0rem;
 	}
+
+/* div pour le ECONOMIQUE ET FAMILIAL les mettre l'un a coté de l'autre */
+	#deuxfiltres{
+
+	display: flex;
+	
+	}
+
+
+	#deux_filtres{
+	display: block;
+	margin-top: 0px; /* largeur entre les filtres de haut en bas */
+	padding-right: 5.5rem;
+
+	}
+
+	#deux_filtres p{
+
+	margin-top: 0;
+	}
+
 
 
 	#loupe{
@@ -819,14 +855,14 @@ h1{
 	#img-heber{
 
 	display: block;
-	margin: 0 0.7rem 0 -1.9rem;
+	margin: 0 1rem 0 0.5rem;
 	}
 
 
 	#img-heber figure{ 
 	
 		display: block;
-		margin-right: 10px;
+		margin: 0.5rem 0 0 1rem;
 	}
 
 
