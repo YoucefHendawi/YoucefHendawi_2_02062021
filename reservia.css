@@ -67,7 +67,7 @@ header{
 
 header img{
 	width: 10%;
-	padding-top: -10px;
+	padding-bottom: 10px;
 
 }
 
@@ -145,7 +145,6 @@ h1 {
 #ville{
 	padding : 0.75rem ;
 	border : 0.15rem solid #F2F2F2;
-	border-radius : #F2F2F2 ;
 	margin : -0.25rem ;
 	font-weight: bold;
 
