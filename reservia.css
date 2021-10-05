@@ -462,7 +462,8 @@ h1 {
 	margin-bottom: 1.5rem;
 	max-height: 9.5rem; 
 	width: 100%;
-
+	margin-left: 0px;
+	
 }
 
 
@@ -555,7 +556,7 @@ h1 {
 
 
 /* sert a l'image vieux port et parc calanques pour mobile */
-#img-act figure{
+#imgact figure{
 
 	display: flex;
 }
