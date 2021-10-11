@@ -439,7 +439,15 @@ h1 {
 	bottom: 0;
 }
 
+.etoiles{
+	margin-bottom: 5px;
 
+}
+
+.etoiles1{
+
+	margin-bottom: 4rem;
+}
 
 
 /* les 3 blocs popu sauf le fond gris */
@@ -449,6 +457,11 @@ h1 {
 
 }
 
+#img-popu p{ /* nuit a partir de ... */ 
+
+	margin-top: 1rem;
+}
+
 
 
 #img-popu .bloc_populaire{
@@ -456,7 +469,6 @@ h1 {
 	background-color: white;
 	border: 0.3rem white solid;
 	border-radius: 1rem;
-	box-shadow: 1rem 1rem 1rem #F2F2F2;
 	display: flex;
 	margin-bottom: 1.5rem;
 	max-height: 9.5rem; 
@@ -483,7 +495,13 @@ h1 {
 	margin: 0;
 }
 
-
+.descrip_popu{
+	
+	margin-top: 0px;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
 
 /* Section ACTIVITES a MARSEILLE */
 
