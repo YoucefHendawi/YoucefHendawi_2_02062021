@@ -440,14 +440,21 @@ h1 {
 }
 
 .etoiles{
-	margin-bottom: 5px;
+
+	margin-bottom: -3.8rem;
 
 }
 
-.etoiles1{
 
-	margin-bottom: 4rem;
+
+.etoilees{
+	font-size: 0.6rem;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0.3rem;
+
 }
+
 
 
 /* les 3 blocs popu sauf le fond gris */
