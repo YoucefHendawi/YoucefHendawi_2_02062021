@@ -812,6 +812,13 @@ h1{
 
 	}
 
+
+	#filtres p:hover{ 
+	background-color: #DEEBFF;
+	}
+
+
+
 	#filtres{
 
 		display: inline-block;
@@ -942,7 +949,6 @@ h1{
 
 	}
 
-
 	
 	#img-popu .bloc_populaire{
 
@@ -1060,7 +1066,6 @@ h1{
 
 
 
-
 	#filtres h3{
 
 		margin-right: 0.8rem;
@@ -1092,11 +1097,24 @@ h1{
 
 	}
 
+	#Hebergements img{ 
+	
+	width: 15.5rem ; /* largeur des images */
+	height: 7rem; /* hauteur des images */
+	border-radius: 1rem; /* contour des images */
+	background-color: white; /* arriere plan des images*/
+	border: 0.3rem white solid; /* contour de l'arriere plan des images */
+	box-shadow: 0.5rem 0.5rem 0.5rem #d2d3d3;
+	padding: 0rem 0rem 4rem 0rem; /* marge interieure des contours des images */
+	object-fit: cover; 
+	margin: 1rem 0 0 2rem;
+}
+
 
 /* le bloc entier d'images*/
 	#img-heber{
 	justify-content: space-around;
-	margin-left: -3.7rem;
+	
 	}
 
 	#populaires{
@@ -1136,7 +1154,11 @@ h1{
 
 	}
 
+	.etoiles{
 
+	margin-bottom: -4.5rem;
+
+	}
 	
 	#img-popu .bloc_populaire{
 
@@ -1181,7 +1203,15 @@ h1{
 	}
 
 
-	
+	#image-vieux-port , #fort-pomegues , #image-iles-frioul, #image-parc-calanques, #image-dame-garde, #image-parc-longchamp {
+
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	padding-bottom: 3rem;
+
+	}
+
 
 	#img-act figure{
 
@@ -1189,7 +1219,7 @@ h1{
 		height: 9rem;
 		position: relative;
 		margin-left: 10px;
-		margin-right: 5px;
+		margin-right: -11px;
 	}
 
 
